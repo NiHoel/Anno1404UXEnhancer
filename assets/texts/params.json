@@ -1,0 +1,4470 @@
+
+
+{
+"factories": [
+{
+"guid": 30000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Farma na koření",
+"english": "Spice farm",
+"french": "Ferme d'épices",
+"german": "Gewürzfarm",
+"italian": "Fattoria di spezie",
+"polish": "Uprawa przypraw",
+"russian": "Плантация пряностей",
+"spanish": "Granja de especias"
+},
+"name": "SpiceFarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50007
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Farma na jablečný mošt",
+"english": "Cider farm",
+"french": "Cidrerie",
+"german": "Mosthof",
+"italian": "Fattoria di sidro",
+"polish": "Tłocznia cydru",
+"russian": "Сидроварня",
+"spanish": "Lagar"
+},
+"name": "CiderFarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50012
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 30020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Konopná plantáž",
+"english": "Hemp plantation",
+"french": "Plantation de Chanvre",
+"german": "Hanfplantage",
+"italian": "Piantagione di canapa",
+"polish": "Plantacja konopi",
+"russian": "Плантация конопли",
+"spanish": "Plantación de cáñamo"
+},
+"name": "HempPlantation",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50047
+}
+],
+"tpmin": 1
+},
+{
+"guid": 30040,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Chatrč dřevorubce",
+"english": "Lumberjack's hut",
+"french": "Cabane de Bûcheron",
+"german": "Holzfällerhütte",
+"italian": "Capanna del Taglialegna",
+"polish": "Chata drwala",
+"russian": "Хижина дровосека",
+"spanish": "Cabaña de leñador"
+},
+"name": "LumberHut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50001
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 30050,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Rybářská chatrč",
+"english": "Fisherman's hut",
+"french": "Cabane de Pêcheur",
+"german": "Fischerhütte",
+"italian": "Capanna del Pescatore",
+"polish": "Chata rybaka",
+"russian": "Хижина рыбака",
+"spanish": "Cabaña de pescador"
+},
+"name": "FishermanHut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50008
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30060,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Kozí farma",
+"english": "Goat farm",
+"french": "Élevage de Chèvres",
+"german": "Ziegenfarm",
+"italian": "Allevamento di capre",
+"polish": "Zagroda kóz",
+"russian": "Козья ферма",
+"spanish": "Granja de cabras"
+},
+"name": "Goatfarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50015
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 30061,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Mandlová plantáž",
+"english": "Almond plantation",
+"french": "Plantation d’amandiers",
+"german": "Mandelplantage",
+"italian": "Piantagione di mandorle",
+"polish": "Plantacja migdałów",
+"russian": "Плантация миндаля",
+"spanish": "Plantación de almendros"
+},
+"name": "AlmondGrove",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50040
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30062,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Obilná farma",
+"english": "Crop farm",
+"french": "Ferme céréalière",
+"german": "Weizenfarm",
+"italian": "Fattoria cerealicola",
+"polish": "Farma zbożowa",
+"russian": "Зерновая ферма",
+"spanish": "Granja de cultivo"
+},
+"name": "CropFarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50038
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30063,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Klášterní zahrada",
+"english": "Monastery garden",
+"french": "Jardin du Monastère",
+"german": "Klostergarten",
+"italian": "Giardino del monastero",
+"polish": "Ogród zakonny",
+"russian": "Монастырский сад",
+"spanish": "Jardín monacal"
+},
+"name": "MonasteryGarden",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50043
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30064,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Dobytčí farma",
+"english": "Cattle farm",
+"french": "Élevage de Bétail",
+"german": "Rinderfarm",
+"italian": "Allevamento",
+"polish": "Farma bydła",
+"russian": "Коровья ферма",
+"spanish": "Granja de ganado"
+},
+"name": "Cattlefarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50037
+}
+],
+"tpmin": 1.25
+},
+{
+"guid": 30065,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Chatrč výrobce dřevěného uhlí",
+"english": "Charcoal burner's hut",
+"french": "Cabane de Charbonnier",
+"german": "Köhlerhütte",
+"italian": "Capanna del Carbonaio",
+"polish": "Chata smolarza",
+"russian": "Хижина угольщика",
+"spanish": "Cabaña de carbonero"
+},
+"name": "CharburnerHut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50031
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30066,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Vepřín",
+"english": "Pig farm",
+"french": "Élevage de Cochons",
+"german": "Schweinezucht",
+"italian": "Fattoria di maiali",
+"polish": "Zagroda świń",
+"russian": "Свиноферма",
+"spanish": "Porqueriza"
+},
+"name": "Pigfarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50048
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30067,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Vinice",
+"english": "Vineyard",
+"french": "Vignoble",
+"german": "Weingut",
+"italian": "Vigneto",
+"polish": "Winnica",
+"russian": "Винодельня",
+"spanish": "Viñedo"
+},
+"name": "Vineyard",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50045
+}
+],
+"tpmin": 0.6666666666666667
+},
+{
+"guid": 30068,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Kávová plantáž",
+"english": "Coffee plantation",
+"french": "Plantation de Caféiers",
+"german": "Kaffeeplantage",
+"italian": "Piantagione di caffè",
+"polish": "Plantacja kawy",
+"russian": "Плантация кофе",
+"spanish": "Plantación de café"
+},
+"name": "CoffeePlantation",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50046
+}
+],
+"tpmin": 1
+},
+{
+"guid": 30069,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Lovecká chatrč",
+"english": "Trapper's lodge",
+"french": "Relais de Trappeur",
+"german": "Pelztierjagdhütte",
+"italian": "Capanno del Cacciatore",
+"polish": "Chata myśliwego",
+"russian": "Хижина охотника",
+"spanish": "Cabaña de trampero"
+},
+"name": "TrapperLodge",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50050
+}
+],
+"tpmin": 2.5
+},
+{
+"guid": 30071,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Plantáž na cukrovou třtinu",
+"english": "Sugar cane plantation",
+"french": "Plantation de canne à sucre",
+"german": "Zuckerrohrplantage",
+"italian": "Piantagione di canna da zucchero",
+"polish": "Plantacja trzciny cukrowej",
+"russian": "Плантация тростника",
+"spanish": "Cañamelar"
+},
+"name": "SugarcanePlantation",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50041
+}
+],
+"tpmin": 2
+},
+{
+"guid": 30072,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 138
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Plantáž na hedvábí",
+"english": "Silk plantation",
+"french": "Champ de sériciculture",
+"german": "Seidenplantage",
+"italian": "Piantagione di seta",
+"polish": "Plantacja morwy",
+"russian": "Шелковичная плантация",
+"spanish": "Plantación de seda"
+},
+"name": "SilkPlantation",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50052
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 30073,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Včelín",
+"english": "Apiary",
+"french": "Rucher",
+"german": "Imkerei",
+"italian": "Apiario",
+"polish": "Pasieka",
+"russian": "Пасека",
+"spanish": "Colmenar"
+},
+"name": "Apiary",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50057
+}
+],
+"tpmin": 0.6666666666666667
+},
+{
+"guid": 30074,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 138
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Pěstírna růží",
+"english": "Rose nursery",
+"french": "Roseraie",
+"german": "Rosenzüchterei",
+"italian": "Roseto",
+"polish": "Uprawa róż",
+"russian": "Питомник роз",
+"spanish": "Vivero de rosas"
+},
+"name": "RoseNursery",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50061
+}
+],
+"tpmin": 0.5
+},
+{
+"guid": 30075,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 138
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Farma na indigo",
+"english": "Indigo farm",
+"french": "Ferme d’Indigo",
+"german": "Indigoplantage",
+"italian": "Fattoria di indaco",
+"polish": "Uprawa indygo",
+"russian": "Плантация индиго",
+"spanish": "Cultivo de añil"
+},
+"name": "IndigoFarm",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50056
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 30076,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Chatrč lovce perel",
+"english": "Pearl fisher's hut",
+"french": "Cabane de Pêcheur de Perles",
+"german": "Perlentaucherhütte",
+"italian": "Capanna del Pescatore di perle",
+"polish": "Chata poławiacza pereł",
+"russian": "Хижина ловцов жемчуга",
+"spanish": "Cabaña de pescador de perlas"
+},
+"name": "PearlFisherHut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50060
+}
+],
+"tpmin": 1
+},
+{
+"guid": 30077,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50001
+}
+],
+"locaText": {
+"czech": "Papírna",
+"english": "Paper mill",
+"french": "Papeterie",
+"german": "Papiermühle",
+"italian": "Cartificio",
+"polish": "Papiernia",
+"russian": "Бумажная мельница",
+"spanish": "Papelera"
+},
+"name": "Papermill",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50053
+}
+],
+"tpmin": 3
+},
+{
+"guid": 30078,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 46
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Datlová plantáž",
+"english": "Date plantation",
+"french": "Plantation de Dattiers",
+"german": "Dattelplantage",
+"italian": "Piantagione di datteri",
+"polish": "Plantacja daktyli",
+"russian": "Финиковая плантация",
+"spanish": "Plantación datilera"
+},
+"name": "DateGrove",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50021
+}
+],
+"tpmin": 3
+},
+{
+"guid": 31000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Jílová jáma",
+"english": "Clay pit",
+"french": "Carrière d'Argile",
+"german": "Tongrube",
+"italian": "Cava d'argilla",
+"polish": "Wyrobisko gliny",
+"russian": "Глиняный карьер",
+"spanish": "Pozo de arcilla"
+},
+"name": "Claypit",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50032
+}
+],
+"tpmin": 1.2
+},
+{
+"guid": 31501,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Důl na křemen",
+"english": "Quartz quarry",
+"french": "Carrière de Quartz",
+"german": "Quarzbruch",
+"italian": "Miniera di quarzo",
+"polish": "Kopalnia kwarcu",
+"russian": "Место добычи кварца",
+"spanish": "Cantera de cuarzo"
+},
+"name": "QuartzQuarry",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50033
+}
+],
+"tpmin": 1.3333333333333335
+},
+{
+"guid": 31502,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Chatrč kameníka",
+"english": "Stonemason's hut",
+"french": "Cabane de Tailleur de Pierre",
+"german": "Steinmetzhütte",
+"italian": "Capanna dello Spaccapietre",
+"polish": "Chata kamieniarza",
+"russian": "Хижина каменотеса",
+"spanish": "Cabaña de picapedrero"
+},
+"name": "StonecuttersHut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50003
+}
+],
+"tpmin": 2
+},
+{
+"guid": 31503,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Důl na železnou rudu",
+"english": "Ore mine",
+"french": "Mine de Minerai",
+"german": "Eisenmine",
+"italian": "Miniera di minerali",
+"polish": "Kopalnia rudy",
+"russian": "Железный рудник",
+"spanish": "Mina de mena"
+},
+"name": "OreMine",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50029
+}
+],
+"tpmin": 2
+},
+{
+"guid": 31504,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Solný důl",
+"english": "Salt mine",
+"french": "Mine de Sel",
+"german": "Salzmine",
+"italian": "Miniera di sale",
+"polish": "Kopalnia soli",
+"russian": "Соляная шахта",
+"spanish": "Mina de sal"
+},
+"name": "SaltMine",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50036
+}
+],
+"tpmin": 4
+},
+{
+"guid": 31506,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Uhelný důl",
+"english": "Coal mine",
+"french": "Mine de Charbon",
+"german": "Kohlebergwerk",
+"italian": "Miniera di carbone",
+"polish": "Kopalnia węgla",
+"russian": "Угольная шахта",
+"spanish": "Mina de carbón"
+},
+"name": "CoalMine",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50031
+}
+],
+"tpmin": 4
+},
+{
+"guid": 31507,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Měděný důl",
+"english": "Copper mine",
+"french": "Mine de Cuivre",
+"german": "Kupfermine",
+"italian": "Miniera di rame",
+"polish": "Kopalnia miedzi",
+"russian": "Медная шахта",
+"spanish": "Mina de cobre"
+},
+"name": "CopperMine",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50054
+}
+],
+"tpmin": 1.3333333333333335
+},
+{
+"guid": 31508,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 92
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Zlatý důl",
+"english": "Gold mine",
+"french": "Mine d'Or",
+"german": "Goldmine",
+"italian": "Miniera d'oro",
+"polish": "Kopalnia złota",
+"russian": "Золотая шахта",
+"spanish": "Mina de oro"
+},
+"name": "GoldMine",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50059
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 32000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50047
+}
+],
+"locaText": {
+"czech": "Chatrč tkadlece",
+"english": "Weaver's hut",
+"french": "Cabane de Tisserand",
+"german": "Webstube",
+"italian": "Capanna del Tessitore",
+"polish": "Chata tkacza",
+"russian": "Ткацкий цех",
+"spanish": "Cabaña de tejedor"
+},
+"name": "Weaverhut",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50017
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32011,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 0
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50030
+}
+],
+"locaText": {
+"czech": "Dílna výrobce nástrojů",
+"english": "Toolmaker's workshop",
+"french": "Atelier d'Outilleur",
+"german": "Werkzeugmacherei",
+"italian": "Officina dell'Attrezzista",
+"polish": "Kuźnia",
+"russian": "Инструментальный цех",
+"spanish": "Taller de fabricante de herramientas"
+},
+"name": "ToolmakerWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50002
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32013,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 0
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50032
+},
+{
+"Amount": 0.5,
+"Product": 50033
+}
+],
+"locaText": {
+"czech": "Mozaiková dílna",
+"english": "Mosaic workshop",
+"french": "Atelier de Mosaïques",
+"german": "Mosaikmacherei",
+"italian": "Officina dei mosaici",
+"polish": "Pracownia mozaiki",
+"russian": "Мозаичная мастерская",
+"spanish": "Taller de mosaicos"
+},
+"name": "MosaicWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50005
+}
+],
+"tpmin": 2.4
+},
+{
+"guid": 32014,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50038
+}
+],
+"locaText": {
+"czech": "Mlýn",
+"english": "Mill",
+"french": "Moulin",
+"german": "Mühle",
+"italian": "Mulino",
+"polish": "Młyn",
+"russian": "Мельница",
+"spanish": "Molino"
+},
+"name": "Mill",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50039
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32015,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50039
+}
+],
+"locaText": {
+"czech": "Pekárna",
+"english": "Bakery",
+"french": "Boulangerie",
+"german": "Backhaus",
+"italian": "Panificio",
+"polish": "Piekarnia",
+"russian": "Пекарня",
+"spanish": "Panadería"
+},
+"name": "Bakery",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50010
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32016,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1.333,
+"Product": 50043
+},
+{
+"Amount": 1.333,
+"Product": 50038
+}
+],
+"locaText": {
+"czech": "Klášterní pivovar",
+"english": "Monastery brewery",
+"french": "Brasserie du Monastère",
+"german": "Klosterbrauerei",
+"italian": "Birrificio del monastero",
+"polish": "Browar zakonny",
+"russian": "Монастырская пивоварня",
+"spanish": "Cervecera monacal"
+},
+"name": "MonasteryBrewery",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50013
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 32017,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50048
+},
+{
+"Amount": 0.5,
+"Product": 50035
+}
+],
+"locaText": {
+"czech": "Koželužna",
+"english": "Tannery",
+"french": "Tannerie",
+"german": "Gerberei",
+"italian": "Conceria",
+"polish": "Garbarnia",
+"russian": "Дубильня",
+"spanish": "Curtiduría"
+},
+"name": "Tannery",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50018
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 0
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50029
+},
+{
+"Amount": 1,
+"Product": 50031
+}
+],
+"locaText": {
+"czech": "Slévárna",
+"english": "Iron smelter",
+"french": "Fonderie de Fer",
+"german": "Eisenschmelze",
+"italian": "Fonderia di ferro",
+"polish": "Piec hutniczy",
+"russian": "Доменная печь",
+"spanish": "Fundición de hierro"
+},
+"name": "OreSmelter",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50030
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32021,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 138
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50047
+}
+],
+"locaText": {
+"czech": "Provazárna",
+"english": "Ropeyard",
+"french": "Atelier de Cordier",
+"german": "Seilerei",
+"italian": "Cordificio",
+"polish": "Warsztat powroźnika",
+"russian": "Канатный цех",
+"spanish": "Cordelería"
+},
+"name": "Ropeyard",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50062
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32022,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 184
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50030
+}
+],
+"locaText": {
+"czech": "Zbrojírna",
+"english": "Weapon smithy",
+"french": "Forgeron d'Armes",
+"german": "Waffenschmiede",
+"italian": "Fucina dell'Armaiolo",
+"polish": "Warsztat płatnerza",
+"russian": "Оружейная",
+"spanish": "Fragua de armas"
+},
+"name": "WeaponSmithy",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50063
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32023,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 0
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50036
+},
+{
+"Amount": 0.5,
+"Product": 50031
+}
+],
+"locaText": {
+"czech": "Solivar",
+"english": "Salt works",
+"french": "Saline",
+"german": "Saline",
+"italian": "Salina",
+"polish": "Warzelnia soli",
+"russian": "Солеварня",
+"spanish": "Fábrica de sal"
+},
+"name": "SaltWorks",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50035
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32024,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50037
+},
+{
+"Amount": 0.8,
+"Product": 50035
+}
+],
+"locaText": {
+"czech": "Řeznictví",
+"english": "Butcher's shop",
+"french": "Boucherie",
+"german": "Schlachterei",
+"italian": "Macelleria",
+"polish": "Sklep rzeźnika",
+"russian": "Скотобойня",
+"spanish": "Carnicería"
+},
+"name": "ButcherShop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50009
+}
+],
+"tpmin": 2.5
+},
+{
+"guid": 32025,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50001
+},
+{
+"Amount": 0.5,
+"Product": 50030
+}
+],
+"locaText": {
+"czech": "Bednářství",
+"english": "Barrel cooperage",
+"french": "Tonnellerie",
+"german": "Fassküferei",
+"italian": "Bottaio",
+"polish": "Warsztat bednarza",
+"russian": "Бочарня",
+"spanish": "Tonelería"
+},
+"name": "BarrelCooperage",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50044
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32026,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50045
+},
+{
+"Amount": 1,
+"Product": 50044
+}
+],
+"locaText": {
+"czech": "Vinný lis",
+"english": "Wine press",
+"french": "Pressoir",
+"german": "Kelterhaus",
+"italian": "Cantina",
+"polish": "Prasa do winogron",
+"russian": "Давильня",
+"spanish": "Lagar de vino"
+},
+"name": "Winepress",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50014
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32027,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 2,
+"Product": 50046
+}
+],
+"locaText": {
+"czech": "Pražírna",
+"english": "Roasting house",
+"french": "Brûlerie",
+"german": "Rösterei",
+"italian": "Torrefazione",
+"polish": "Palarnia kawy",
+"russian": "Обжарочная",
+"spanish": "Tostadero"
+},
+"name": "RoastHouse",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50016
+}
+],
+"tpmin": 1
+},
+{
+"guid": 32028,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50050
+},
+{
+"Amount": 0.53,
+"Product": 50035
+}
+],
+"locaText": {
+"czech": "Kožešníkova dílna",
+"english": "Furrier's workshop",
+"french": "Atelier de Fourreur",
+"german": "Kürschnerei",
+"italian": "Officina del pellicciaio",
+"polish": "Warsztat kuśnierza",
+"russian": "Скорняжная мастерская",
+"spanish": "Taller de peletero"
+},
+"name": "FurrierWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50019
+}
+],
+"tpmin": 2.5
+},
+{
+"guid": 32029,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 184
+},
+"inputs": [
+{
+"Amount": 2,
+"Product": 50001
+},
+{
+"Amount": 2,
+"Product": 50062
+}
+],
+"locaText": {
+"czech": "Dílna na výrobu válečných strojů",
+"english": "War machines workshop",
+"french": "Ateliers d'Engins de Siège",
+"german": "Kriegsmaschinenwerkstatt",
+"italian": "Officina di macchine da guerra",
+"polish": "Warsztat machin wojennych",
+"russian": "Военная мастерская",
+"spanish": "Taller de maquinaria militar"
+},
+"name": "WarMachineBuilder",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50064
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 32030,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50041
+}
+],
+"locaText": {
+"czech": "Cukrovar",
+"english": "Sugar mill",
+"french": "Moulin à Sucre",
+"german": "Zuckermühle",
+"italian": "Zuccherificio",
+"polish": "Młyn cukrowy",
+"russian": "Сахароварня",
+"spanish": "Azucarera"
+},
+"name": "SugarMill",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50042
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32031,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 46
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50040
+},
+{
+"Amount": 1,
+"Product": 50042
+}
+],
+"locaText": {
+"czech": "Cukrárna",
+"english": "Confectioner's workshop",
+"french": "Atelier de Confiseur",
+"german": "Zuckerbäckerei",
+"italian": "Officina dolciaria",
+"polish": "Warsztat cukiernika",
+"russian": "Кондитерская",
+"spanish": "Confitería"
+},
+"name": "ConfectionerWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50011
+}
+],
+"tpmin": 4
+},
+{
+"guid": 32032,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50052
+},
+{
+"Amount": 0.5,
+"Product": 50051
+}
+],
+"locaText": {
+"czech": "Hedvábná krejčovna",
+"english": "Silk weaving mill",
+"french": "Fabrique de tissage de Soie",
+"german": "Seidenweberei",
+"italian": "Setificio",
+"polish": "Tkalnia jedwabiu",
+"russian": "Шелкоткацкая фабрика",
+"spanish": "Tejeduría de seda"
+},
+"name": "SilkWeavingMill",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50020
+}
+],
+"tpmin": 3
+},
+{
+"guid": 32033,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 184
+},
+"inputs": [
+{
+"Amount": 1.5,
+"Product": 50030
+},
+{
+"Amount": 3,
+"Product": 50001
+}
+],
+"locaText": {
+"czech": "Výrobna děl",
+"english": "Cannon foundry",
+"french": "Fonderie de Canons",
+"german": "Kanonengießerei",
+"italian": "Fonderia di cannoni",
+"polish": "Ludwisarnia",
+"russian": "Пушечный двор",
+"spanish": "Fundición de cañones"
+},
+"name": "CannonFoundry",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50065
+}
+],
+"tpmin": 1
+},
+{
+"guid": 32034,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 0
+},
+"inputs": [
+],
+"locaText": {
+"czech": "Lesní sklárna",
+"english": "Forest glassworks",
+"french": "Verrerie forestière",
+"german": "Waldglashütte",
+"italian": "Fabbrica di vetro della foresta",
+"polish": "Potażarnia",
+"russian": "Хижина стекольщика",
+"spanish": "Fábrica forestal de vidrio"
+},
+"name": "ForestGlassworks",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50049
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32035,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50054
+},
+{
+"Amount": 1,
+"Product": 50031
+}
+],
+"locaText": {
+"czech": "Slévárna mědi",
+"english": "Copper smelter",
+"french": "Fonderie de Cuivre",
+"german": "Kupferschmelze",
+"italian": "Fonderia di rame",
+"polish": "Wytapiacz miedzi",
+"russian": "Медеплавильный цех",
+"spanish": "Fundición de cobre"
+},
+"name": "CopperSmelter",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50055
+}
+],
+"tpmin": 1.3333333333333335
+},
+{
+"guid": 32036,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50055
+},
+{
+"Amount": 0.5,
+"Product": 50033
+}
+],
+"locaText": {
+"czech": "Optikova dílna",
+"english": "Optician's workshop",
+"french": "Atelier d'Opticien",
+"german": "Brillenmacherei",
+"italian": "Officina dell'ottico",
+"polish": "Warsztat optyka",
+"russian": "Очковая мастерская",
+"spanish": "Taller de óptico"
+},
+"name": "OpticianWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50023
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32037,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50057
+},
+{
+"Amount": 0.75,
+"Product": 50047
+}
+],
+"locaText": {
+"czech": "Dílna výrobce svíček",
+"english": "Candlemaker's workshop",
+"french": "Atelier de Confectionneur de Bougies",
+"german": "Lichtzieherei",
+"italian": "Officina dei candelai",
+"polish": "Warsztat świecarza",
+"russian": "Свечной завод",
+"spanish": "Taller de fabricante de velas"
+},
+"name": "CandlemakerWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50058
+}
+],
+"tpmin": 1.3333333333333335
+},
+{
+"guid": 32038,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50055
+},
+{
+"Amount": 1,
+"Product": 50058
+}
+],
+"locaText": {
+"czech": "Umělecký kovář",
+"english": "Redsmith's Workshop",
+"french": "Fabricant de Chandeliers",
+"german": "Feinschmiede",
+"italian": "Officina del fabbro candeliere",
+"polish": "Warsztat kotlarza",
+"russian": "Чистовая кузница",
+"spanish": "Taller de cobrero"
+},
+"name": "Metalworks",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50025
+}
+],
+"tpmin": 2
+},
+{
+"guid": 32039,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 138
+},
+"inputs": [
+{
+"Amount": 1.5,
+"Product": 50061
+}
+],
+"locaText": {
+"czech": "Parfumérie",
+"english": "Perfumery",
+"french": "Parfumerie",
+"german": "Duftmischerei",
+"italian": "Profumeria",
+"polish": "Perfumeria",
+"russian": "Цирюльня",
+"spanish": "Perfumería"
+},
+"name": "Perfumery",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50027
+}
+],
+"tpmin": 1
+},
+{
+"guid": 32040,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 138
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50052
+},
+{
+"Amount": 1,
+"Product": 50056
+}
+],
+"locaText": {
+"czech": "Výrobna koberců",
+"english": "Carpet workshop",
+"french": "Manufacture de Tapis",
+"german": "Teppichknüpferei",
+"italian": "Officina di tappeti",
+"polish": "Warsztat tkacza dywanów",
+"russian": "Ковровая мастерская",
+"spanish": "Taller de alfombras"
+},
+"name": "CarpetWorkshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50024
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 32041,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50059
+},
+{
+"Amount": 1,
+"Product": 50031
+}
+],
+"locaText": {
+"czech": "Slévárna zlata",
+"english": "Gold smelter",
+"french": "Fonderie d'Or",
+"german": "Goldschmelze",
+"italian": "Fonderia d'oro",
+"polish": "Piec złotnika",
+"russian": "Золотоплавильня",
+"spanish": "Fundición de oro"
+},
+"name": "GoldOreSmelter",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50051
+}
+],
+"tpmin": 1.5
+},
+{
+"guid": 32042,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50060
+}
+],
+"locaText": {
+"czech": "Perlová dílna",
+"english": "Pearl workshop",
+"french": "Atelier de Perles",
+"german": "Perlenknüpferei",
+"italian": "Officina di perle",
+"polish": "Warsztat obróbki pereł",
+"russian": "Жемчужная мастерская",
+"spanish": "Taller de perlas"
+},
+"name": "Pearl wokrshop",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50026
+}
+],
+"tpmin": 1
+},
+{
+"guid": 32043,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 92
+},
+"inputs": [
+{
+"Amount": 0.5,
+"Product": 50053
+},
+{
+"Amount": 1,
+"Product": 50056
+}
+],
+"locaText": {
+"czech": "Tiskárna",
+"english": "Printing house",
+"french": "Imprimerie",
+"german": "Druckerei",
+"italian": "Tipografia",
+"polish": "Warsztat drukarski",
+"russian": "Типография",
+"spanish": "Imprenta"
+},
+"name": "PrintingHouse",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50022
+}
+],
+"tpmin": 3
+},
+{
+"guid": 32044,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 0
+},
+"inputs": [
+{
+"Amount": 1,
+"Product": 50049
+},
+{
+"Amount": 0.5,
+"Product": 50033
+}
+],
+"locaText": {
+"czech": "Tavič skla",
+"english": "Glass smelter",
+"french": "Fonderie de Verre",
+"german": "Glasschmelze",
+"italian": "Fonderia di vetro",
+"polish": "Piec szklarski",
+"russian": "Стекловарня",
+"spanish": "Taller de soplado de cristal"
+},
+"name": "GlassSmelter",
+"outputs": [
+{
+"Amount": 1,
+"Product": 50004
+}
+],
+"tpmin": 1
+}
+],
+"icons": [
+"gui_icon_map_anno4_sorted.png",
+"gui_icon_map_anno4_2.png"
+],
+"items": [
+],
+"languages": [
+"german",
+"english",
+"french",
+"spanish",
+"italian",
+"polish",
+"russian",
+"czech"
+],
+"populationGroups": [
+],
+"populationLevels": [
+{
+"fullHouse": 500,
+"guid": 51911,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 414
+},
+"locaText": {
+"czech": "Žebrák",
+"english": "Beggar",
+"french": "Mendiant",
+"german": "Bettler",
+"italian": "Mendicante",
+"polish": "Żebrak",
+"russian": "Нищий",
+"spanish": "Mendigo"
+},
+"name": "Beggar_in_hospice",
+"needs": [
+{
+"guid": 50008,
+"tpmin": 0.007
+},
+{
+"guid": 50012,
+"tpmin": 0.003
+}
+],
+"residence": 34036
+},
+{
+"fullHouse": 8,
+"guid": 51901,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 368
+},
+"locaText": {
+"czech": "Poddaní",
+"english": "Peasants",
+"french": "Paysans",
+"german": "Bauern",
+"italian": "Contadini",
+"polish": "Wieśniacy",
+"russian": "Крестьяне",
+"spanish": "Campesinos"
+},
+"name": "Peasant",
+"needs": [
+{
+"guid": 50008,
+"tpmin": 0.01
+},
+{
+"guid": 50012,
+"tpmin": 0.0044
+}
+],
+"residence": 33010
+},
+{
+"fullHouse": 15,
+"guid": 51902,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 368
+},
+"locaText": {
+"czech": "Občan",
+"english": "Citizen",
+"french": "Citoyen",
+"german": "Bürger",
+"italian": "Cittadino",
+"polish": "Mieszczanin",
+"russian": "Горожанин",
+"spanish": "Ciudadano"
+},
+"name": "Citizen",
+"needs": [
+{
+"guid": 50007,
+"tpmin": 0.004
+},
+{
+"guid": 50008,
+"tpmin": 0.004
+},
+{
+"guid": 50012,
+"tpmin": 0.0044
+},
+{
+"guid": 50017,
+"tpmin": 0.0042
+}
+],
+"residence": 33020,
+"residenceUpgradeAmountMaxPercent": 80
+},
+{
+"fullHouse": 25,
+"guid": 51903,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 414
+},
+"locaText": {
+"czech": "Patricij",
+"english": "Patrician",
+"french": "Patricien",
+"german": "Patrizier",
+"italian": "Patrizio",
+"polish": "Patrycjusz",
+"russian": "Патриций",
+"spanish": "Patricio"
+},
+"name": "Patrician",
+"needs": [
+{
+"guid": 50007,
+"tpmin": 0.0022
+},
+{
+"guid": 50008,
+"tpmin": 0.0022
+},
+{
+"guid": 50010,
+"tpmin": 0.0055
+},
+{
+"guid": 50012,
+"tpmin": 0.0023
+},
+{
+"guid": 50013,
+"tpmin": 0.0024
+},
+{
+"guid": 50017,
+"tpmin": 0.0019
+},
+{
+"guid": 50018,
+"tpmin": 0.0028
+},
+{
+"guid": 50022,
+"tpmin": 0.0016
+},
+{
+"guid": 50025,
+"tpmin": 0.0008
+}
+],
+"residence": 33030,
+"residenceUpgradeAmountMaxPercent": 60
+},
+{
+"fullHouse": 40,
+"guid": 51904,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 414
+},
+"locaText": {
+"czech": "Šlechtic",
+"english": "Nobleman",
+"french": "Noble",
+"german": "Adlige",
+"italian": "Nobile",
+"polish": "Arystokrata",
+"russian": "Дворянин",
+"spanish": "Noble"
+},
+"name": "Nobleman",
+"needs": [
+{
+"guid": 50007,
+"tpmin": 0.0016
+},
+{
+"guid": 50008,
+"tpmin": 0.0016
+},
+{
+"guid": 50010,
+"tpmin": 0.0039
+},
+{
+"guid": 50009,
+"tpmin": 0.0022
+},
+{
+"guid": 50012,
+"tpmin": 0.0013
+},
+{
+"guid": 50013,
+"tpmin": 0.0014
+},
+{
+"guid": 50014,
+"tpmin": 0.002
+},
+{
+"guid": 50017,
+"tpmin": 0.0008
+},
+{
+"guid": 50018,
+"tpmin": 0.0016
+},
+{
+"guid": 50019,
+"tpmin": 0.0016
+},
+{
+"guid": 50020,
+"tpmin": 0.00142
+},
+{
+"guid": 50022,
+"tpmin": 0.0009
+},
+{
+"guid": 50023,
+"tpmin": 0.00117
+},
+{
+"guid": 50027,
+"tpmin": 0.00058
+},
+{
+"guid": 50025,
+"tpmin": 0.0006
+}
+],
+"residence": 33040,
+"residenceUpgradeAmountMaxPercent": 40
+},
+{
+"fullHouse": 15,
+"guid": 51909,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 414
+},
+"locaText": {
+"czech": "Nomádi",
+"english": "Nomads",
+"french": "Nomades",
+"german": "Nomaden",
+"italian": "Nomadi",
+"polish": "Nomadzi",
+"russian": "Кочевники",
+"spanish": "Nómadas"
+},
+"name": "Nomad",
+"needs": [
+{
+"guid": 50021,
+"tpmin": 0.00666
+},
+{
+"guid": 50015,
+"tpmin": 0.00344
+},
+{
+"guid": 50024,
+"tpmin": 0.00165
+}
+],
+"residence": 33055
+},
+{
+"fullHouse": 25,
+"guid": 51910,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 414
+},
+"locaText": {
+"czech": "Velvyslanci",
+"english": "Envoys",
+"french": "Émissaires",
+"german": "Gesandte",
+"italian": "Messi",
+"polish": "Arabscy osadnicy",
+"russian": "Посланник",
+"spanish": "Enviados"
+},
+"name": "Ambassador",
+"needs": [
+{
+"guid": 50021,
+"tpmin": 0.005
+},
+{
+"guid": 50011,
+"tpmin": 0.00163
+},
+{
+"guid": 50015,
+"tpmin": 0.00225
+},
+{
+"guid": 50016,
+"tpmin": 0.001
+},
+{
+"guid": 50027,
+"tpmin": 0.0008
+},
+{
+"guid": 50026,
+"tpmin": 0.00133
+},
+{
+"guid": 50024,
+"tpmin": 0.001
+}
+],
+"residence": 33060,
+"residenceUpgradeAmountMaxPercent": 70
+}
+],
+"productFilter": [
+{
+"guid": 502031,
+"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACMklEQVRoge2YsU4UURSGubuLJoTYaSKhAkFsTHwEFou1o6MwGlvfYilICK0PQWPopOMpLDeRgjHGBg1gHLKZ+Sy4g2fvnovu7lkmmvsnk0z2P3v+8829M5PMzExSUlJSUlLS3wloAm+At7d8vAKaliAn1KcTKwgHnNcIcg44K5gOcAxkZVmGQZn3jpUhLoR3ofiV91n+6DMy4BPQMYHwIA5wRVG8A0KSVVEX6kB4B6EpvNXAKn2Ww2o1AqCfQWAB3LkB5H01jD+PgbR8L6ncHMCHPVIG/VJdMWBW8XcFyK7iz/r/OoLt5bWC5Yr4oD0l6FD4m4q/LXpsK/6muBCHir+H8ePXKSEAG6JmfwyQfeFvRDJMV2QhEtIUNZnibwl/S/Ez4TcjGQtWEA440hKCmm+jgpRl+T3I0nSExar4IXNliA8yIDLEn1YkvBhDTzasnl7A08iQr/l9oy5GatZFn/VIzaIAeRmpeWYB0o40X6pq8jwPX2ijgKyJmiWtoN/vP7cAua/0HljuXq93F7gMagpgTvSZY/ildwm0gryhbQw8sABxXG2jH77pV2BeqXkInPqaM+CFUtPxHsBpnufLSt68z8BnXm9hMwH3xHkb+AjsxGpG6Lvje7Un6TOWgH617ga9rm8Hi9nGDbcEmbhXreEJxEIJZMq9ag1PIBMEum632wAaDKox4THQy2fYf3SQINye/g+QqUEkkASSQBJIAqkTpAU8AdamfDyeKkhSUtK/q1+eJuae4hvBrgAAAABJRU5ErkJggg==",
+"locaText": {
+"brazilian": "Consumer Goods",
+"chinese": "制成品",
+"english": "Consumer Goods",
+"french": "Biens de consommation",
+"german": "Konsumgüter",
+"italian": "Beni di consumo",
+"japanese": "消費財",
+"korean": "소비재",
+"polish": "Towary konsumpcyjne",
+"portuguese": "Consumer Goods",
+"russian": "Потребительские товары",
+"spanish": "Bienes de consumo",
+"taiwanese": "製成品"
+},
+"name": "Consumer Goods",
+"products": [
+50008,
+50012,
+50017,
+50007,
+50022,
+50010,
+50013,
+50018,
+50025,
+50014,
+50023,
+50019,
+50009,
+50015,
+50021,
+50024,
+50026,
+50016,
+50020,
+50011,
+50027
+]
+},
+{
+"guid": 501957,
+"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABJklEQVRoge3YL04DQRiH4ZltUwRpeoMKEhyCA/QAXIGmN+AC1K0inAKBXI3AYigWg68qBldBal7MCrJZSOZP+JbJ701G7uw8mbY7W+eUUkqpAgI84K3X4ZxzDngC3hPGM1BZI87I08wS4YG7UiDbUiD7EiDTTAhzyGkpkAnwmQlyZAZRKiDasw/gm6YZpQx6zlEh8wLjVMgq0xd41wN5C5xjHgsZA5tMEL5DgCri+htiTsfAKCekM3cUJGpH2s+mIIOB1HVdFQFpb/gyJAixr8LAOXDI4HjsLgK4D7j+A5hE70h7w+Q/BPjhgfiXa1Ch9e2a1UIWwGXCWAIn1oiLlF+CTseWkOuMENNX3bUgggjyK+SqFIgHHoDXxHHLEB6KSiml1H/tC5s0kaxqdCOzAAAAAElFTkSuQmCC",
+"locaText": {
+"brazilian": "Construction Material",
+"chinese": "建设材料",
+"english": "Construction Material",
+"french": "Matériau de construction",
+"german": "Baumaterial",
+"italian": "Materiale da costruzione",
+"japanese": "建設資材",
+"korean": "건설재",
+"polish": "Materiały budowlane",
+"portuguese": "Construction Material",
+"russian": "Строительный материал",
+"spanish": "Material de construcción",
+"taiwanese": "建設材料"
+},
+"name": "Construction Material",
+"products": [
+50001,
+50002,
+50003,
+50062,
+50004,
+50063,
+50064,
+50065,
+50066,
+50005
+]
+},
+{
+"guid": 501958,
+"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABu0lEQVRoge2ZvUvDQBiHL7Vg68fg0EEQRzdFXZxcxUlHF3FycHMSQf8Dwc7OKgV3l/4ZDtKpk4sUxKF+Y3gcci3X9FJbTO5afB84SMgL+T25u5C7KCUIgiAopYAAKAGlRqMxBRSBwHeugQFm6OYR2PGdbSCAmkWkxflQ9o4eRoFxbOuNONu+c3cBFIBlYE6L3PQh8uk7t1JKKWACaAJfRrgQyPch0WJNix/7ksgDrwMETqIGPBvnK65FrlKQsPHmWiRLpl2KDN+rUxhFgDJw7amV0xSpZzzBe1EXEREREXciVeBeN1e07ldNTSQm5YRMwouIiIjIPxMhWl9/O/B4Ics1jxa5dSBSyVREy6w6EFnIVMKQOcxQYheXS2lgi2gvNy0egE2nEjGhAjD5x1bwEj4JYAPYAxaBnPl0iV4UOWBJ16z7zGqFaPv0IzZU6kDOqBmjc1cR4A0o+szeRj/ppPXKkb4eAGcJNXfe5oVFpBdBPzW+PZRSvT9b9PXfduiHRqRpSxeG4YXRI5UEiSff+dsA80T/RkzegXFDpEg0uTtcgVnf+dsYYU+BS2DfNlx0zYGuOfGRVRCEEecHqfnQMiDXkRYAAAAASUVORK5CYII=",
+"locaText": {
+"brazilian": "Raw Materials",
+"chinese": "原料",
+"english": "Raw Materials",
+"french": "Matières premières",
+"german": "Rohmaterial",
+"italian": "Materie prime",
+"japanese": "原料",
+"korean": "원자재",
+"polish": "Surowce naturalne",
+"portuguese": "Raw Materials",
+"russian": "Сырье",
+"spanish": "Materia prima",
+"taiwanese": "原料"
+},
+"name": "Raw Materials",
+"products": [
+50029,
+50030,
+50035,
+50031,
+50049,
+50053,
+50044,
+50054,
+50055,
+50059,
+50051,
+50032,
+50060,
+50033
+]
+},
+{
+"guid": 501959,
+"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAC/UlEQVRoge2Yu2sUQRzHs3cXjWiQqLGQYGEhWKiFiJWm8QFpfCBEbNRCEIVY+AQt4l+ggqCgCIKonCIhQSwMKqKgFlpYBjl8BEQhcJ4YubmZj8XNkmXZnbmsezsB9wsDtzO/nfl+9rc7j+voyJUrV65cKQjw/BK8du1r1gK2AZeBUV3GgKWufVkVyMBh4rViLpgsCCGeAQNAISbmpQFiboBIKW8HDPVHxAxZINyDKKWeRJja6rcDnYCwUUxPT690AqBflx0xvuqBuE0tZENVKpUuVyBFi7lbOu6olUKpF04gWgSZKpfLReB0Cxlxkw0Nsr0FgwULiABWZ23cAx4zsxrvtFHouDiQEWBx1gBeo9G4pw1M6LoeC8eUvr8XWKvLOmBRZuYjQMZDJid1m0l3o/rKnmBm8P0xRsdo7pnidBZoRNS/BnpcgJjULYR4a4mJUz8R25l2QdgWs3GgpJQaSQgzkBXIRYuRTzrOE0K8SwizMW3T/lZ7b+D3I4uJL8H7E2TmF2lPwdr4HT3AoL4+aTHyIdRHaRbfTI00vxFt2BNCPA8NdAyYbzCipJRDBI6tQEmXmxYIAXSnBhEAORMz4GbgfUxbA9gNfAtWSil/ALuAVcCr0D2TwPlUAUIgpie3EPgT0SYN9wFUdN8FoAuYRzsXROCSyU29Xt9Qq9V6aeFwFKGJtpoPgXw0OZFS3tBxvYBKAPM1Exjgs8XIaCA2SWaqpP1hx4BMmFxIKa8GnyiwHPv34et32wECxk5YzKwh9GoAfTQXMyNEtVpdkiWIadaq0TxHPAjUfQeOA11KqYdE73DvZwYQAjkYA/LTACmAQzTP7n00140+v09XIB7NeT+JBp0YjwApANcSQvg64hRGZ+L6P0IATAGdLkGupAAhhoeHsznpRQCUgAMGc6ewb+Ehq8XOAFIEwtt2XxeYmQD2ELFeKKUA3gBFZxAaxAPORWWiXC4XQ7EFYD2wT2dqC7DMlfdIAU81gKBd54QspDOzgKz+lsmVK1eu/0J/AYRK0ey6KUBAAAAAAElFTkSuQmCC",
+"locaText": {
+"brazilian": "Agricultural Products",
+"chinese": "农业产品",
+"english": "Agricultural Products",
+"french": "Produits agricoles",
+"german": "Landwirtschaftliche Produkte",
+"italian": "Prodotti agricoli",
+"japanese": "農産物",
+"korean": "농산품",
+"polish": "Produkty rolne",
+"portuguese": "Agricultural Products",
+"russian": "Сельскохозяйственная продукция",
+"spanish": "Productos agrícola",
+"taiwanese": "農業產品"
+},
+"name": "Agricultural Products",
+"products": [
+50047,
+50038,
+50039,
+50043,
+50048,
+50037,
+50045,
+50050,
+50057,
+50058,
+50056,
+50052,
+50046,
+50061,
+50040,
+50041,
+50042
+]
+}
+],
+"products": [
+{
+"guid": 50001,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 0
+},
+"locaText": {
+"czech": "Dřevo",
+"english": "Wood",
+"french": "Bois",
+"german": "Holz",
+"italian": "Legna",
+"polish": "Drewno",
+"russian": "Древесина",
+"spanish": "Madera"
+},
+"name": "Wood",
+"producers": [
+30040
+]
+},
+{
+"guid": 50002,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 0
+},
+"locaText": {
+"czech": "Nástroje",
+"english": "Tools",
+"french": "Outils",
+"german": "Werkzeug",
+"italian": "Attrezzi",
+"polish": "Narzędzia",
+"russian": "Инструмент",
+"spanish": "Herramientas"
+},
+"name": "Tools",
+"producers": [
+32011
+]
+},
+{
+"guid": 50003,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 0
+},
+"locaText": {
+"czech": "Kámen",
+"english": "Stone",
+"french": "Pierre",
+"german": "Stein",
+"italian": "Pietra",
+"polish": "Kamień",
+"russian": "Камень",
+"spanish": "Piedra"
+},
+"name": "Stone",
+"producers": [
+31502
+]
+},
+{
+"guid": 50004,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 0
+},
+"locaText": {
+"czech": "Sklo",
+"english": "Glass",
+"french": "Verre",
+"german": "Glas",
+"italian": "Vetro",
+"polish": "Szkło",
+"russian": "Стекло",
+"spanish": "Cristal"
+},
+"name": "Glass",
+"producers": [
+32044
+]
+},
+{
+"guid": 50005,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 0
+},
+"locaText": {
+"czech": "Mozaika",
+"english": "Mosaic",
+"french": "Mosaïque",
+"german": "Mosaik",
+"italian": "Mosaico",
+"polish": "Mozaika",
+"russian": "Мозаика",
+"spanish": "Mosaico"
+},
+"name": "Mosaic",
+"producers": [
+32013
+]
+},
+{
+"guid": 50007,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 46
+},
+"locaText": {
+"czech": "Koření",
+"english": "Spices",
+"french": "Épices ",
+"german": "Gewürze",
+"italian": "Spezie",
+"polish": "Przyprawy",
+"russian": "Пряности",
+"spanish": "Especias"
+},
+"name": "Spices",
+"producers": [
+30000
+]
+},
+{
+"guid": 50008,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 0
+},
+"locaText": {
+"czech": "Ryby",
+"english": "Fish",
+"french": "Poisson",
+"german": "Fisch",
+"italian": "Pesce",
+"polish": "Ryba",
+"russian": "Рыба",
+"spanish": "Pescado"
+},
+"name": "SaltFish",
+"producers": [
+30050
+]
+},
+{
+"guid": 50010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 46
+},
+"locaText": {
+"czech": "Chleba",
+"english": "Bread",
+"french": "Pain",
+"german": "Brot",
+"italian": "Pane",
+"polish": "Chleb",
+"russian": "Хлеб",
+"spanish": "Pan"
+},
+"name": "Bread",
+"producers": [
+32015
+]
+},
+{
+"guid": 50009,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 46
+},
+"locaText": {
+"czech": "Maso",
+"english": "Meat",
+"french": "Viande",
+"german": "Fleisch",
+"italian": "Carne",
+"polish": "Mięso",
+"russian": "Мясо",
+"spanish": "Carne"
+},
+"name": "SaltMeat",
+"producers": [
+32024
+]
+},
+{
+"guid": 50021,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 46
+},
+"locaText": {
+"czech": "Datle",
+"english": "Dates",
+"french": "Dattes",
+"german": "Datteln",
+"italian": "Datteri",
+"polish": "Daktyle",
+"russian": "Финики",
+"spanish": "Dátiles"
+},
+"name": "Dates",
+"producers": [
+30078
+]
+},
+{
+"guid": 50011,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 46
+},
+"locaText": {
+"czech": "Marcipán",
+"english": "Marzipan",
+"french": "Massepain",
+"german": "Marzipan",
+"italian": "Marzapane",
+"polish": "Marcepan",
+"russian": "Марципаны",
+"spanish": "Mazapán"
+},
+"name": "Marzipan",
+"producers": [
+32031
+]
+},
+{
+"guid": 50012,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 46
+},
+"locaText": {
+"czech": "Jablečný mošt",
+"english": "Cider",
+"french": "Cidre",
+"german": "Most",
+"italian": "Sidro",
+"polish": "Cydr",
+"russian": "Сидр",
+"spanish": "Sidra"
+},
+"name": "Cider",
+"producers": [
+30010
+]
+},
+{
+"guid": 50015,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 46
+},
+"locaText": {
+"czech": "Mléko",
+"english": "Milk",
+"french": "Lait",
+"german": "Milch",
+"italian": "Latte",
+"polish": "Mleko",
+"russian": "Молоко",
+"spanish": "Leche"
+},
+"name": "Milk",
+"producers": [
+30060
+]
+},
+{
+"guid": 50013,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 46
+},
+"locaText": {
+"czech": "Pivo",
+"english": "Beer",
+"french": "Bière",
+"german": "Bier",
+"italian": "Birra",
+"polish": "Piwo",
+"russian": "Пиво",
+"spanish": "Cerveza"
+},
+"name": "Beer",
+"producers": [
+32016
+]
+},
+{
+"guid": 50014,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 46
+},
+"locaText": {
+"czech": "Víno",
+"english": "Wine",
+"french": "Vin",
+"german": "Wein",
+"italian": "Vino",
+"polish": "Wino",
+"russian": "Вино",
+"spanish": "Vino"
+},
+"name": "Wine",
+"producers": [
+32026
+]
+},
+{
+"guid": 50016,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 46
+},
+"locaText": {
+"czech": "Káva",
+"english": "Coffee",
+"french": "Café",
+"german": "Kaffee",
+"italian": "Caffè",
+"polish": "Kawa",
+"russian": "Кофе",
+"spanish": "Café"
+},
+"name": "Coffee",
+"producers": [
+32027
+]
+},
+{
+"guid": 50017,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 92
+},
+"locaText": {
+"czech": "Plátěné oblečení",
+"english": "Linen garments",
+"french": "Vêtements de Lin",
+"german": "Leinenkutten",
+"italian": "Indumenti di lino",
+"polish": "Odzienie",
+"russian": "Полотняная ряса",
+"spanish": "Ropa de lino"
+},
+"name": "LinenHabit",
+"producers": [
+32000
+]
+},
+{
+"guid": 50018,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 92
+},
+"locaText": {
+"czech": "Kožené vesty",
+"english": "Leather jerkins",
+"french": "Pourpoints de Cuir",
+"german": "Lederwämser",
+"italian": "Gilet di pelle",
+"polish": "Skórzane kaftany",
+"russian": "Кожаный камзол",
+"spanish": "Chalecos de cuero"
+},
+"name": "LeatherJerkin",
+"producers": [
+32017
+]
+},
+{
+"guid": 50019,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 92
+},
+"locaText": {
+"czech": "Kožichy",
+"english": "Fur coats",
+"french": "Manteaux de Fourrure",
+"german": "Pelzmäntel",
+"italian": "Capi di pelliccia",
+"polish": "Płaszcze futrzane",
+"russian": "Шубы",
+"spanish": "Abrigos de piel"
+},
+"name": "FurCoat",
+"producers": [
+32028
+]
+},
+{
+"guid": 50020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 92
+},
+"locaText": {
+"czech": "Brokátové róby",
+"english": "Brocade robes",
+"french": "Robes de Brocart",
+"german": "Brokatgewänder",
+"italian": "Tonache broccate",
+"polish": "Ozdobne szaty",
+"russian": "Парчовые одеяния",
+"spanish": "Túnicas de brocado"
+},
+"name": "BrocadeRobe",
+"producers": [
+32032
+]
+},
+{
+"guid": 50022,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 92
+},
+"locaText": {
+"czech": "Knihy",
+"english": "Books",
+"french": "Livres",
+"german": "Bücher",
+"italian": "Libri",
+"polish": "Księgi",
+"russian": "Книги",
+"spanish": "Libros"
+},
+"name": "Book",
+"producers": [
+32043
+]
+},
+{
+"guid": 50023,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 92
+},
+"locaText": {
+"czech": "Brýle",
+"english": "Glasses",
+"french": "Lunettes",
+"german": "Brillen",
+"italian": "Occhiali",
+"polish": "Binokle",
+"russian": "Очки",
+"spanish": "Lentes"
+},
+"name": "Glasses",
+"producers": [
+32036
+]
+},
+{
+"guid": 50027,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 138
+},
+"locaText": {
+"czech": "Voňavka",
+"english": "Perfume",
+"french": "Parfum",
+"german": "Duftwasser",
+"italian": "Profumo",
+"polish": "Perfumy",
+"russian": "Туалетная вода",
+"spanish": "Perfume"
+},
+"name": "Perfume",
+"producers": [
+32039
+]
+},
+{
+"guid": 50025,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 92
+},
+"locaText": {
+"czech": "Svícen",
+"english": "Candlestick",
+"french": "Chandelier",
+"german": "Kerzenhalter",
+"italian": "Candelabri",
+"polish": "Kandelabr",
+"russian": "Подсвечники",
+"spanish": "Candelero"
+},
+"name": "CandleStick",
+"producers": [
+32038
+]
+},
+{
+"guid": 50026,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 92
+},
+"locaText": {
+"czech": "Perlové náhrdelníky",
+"english": "Pearl necklaces",
+"french": "Colliers de Perles",
+"german": "Perlenketten",
+"italian": "Collane di perle",
+"polish": "Naszyjniki z pereł",
+"russian": "Жемчужные ожерелья",
+"spanish": "Collares de perlas"
+},
+"name": "PearlNecklace",
+"producers": [
+32042
+]
+},
+{
+"guid": 50024,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 138
+},
+"locaText": {
+"czech": "Koberce",
+"english": "Carpets",
+"french": "Tapis",
+"german": "Teppiche",
+"italian": "Tappeti",
+"polish": "Dywany",
+"russian": "Ковры",
+"spanish": "Alfombras"
+},
+"name": "Carpets",
+"producers": [
+32040
+]
+},
+{
+"guid": 50035,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 0
+},
+"locaText": {
+"czech": "Sůl",
+"english": "Salt",
+"french": "Sel",
+"german": "Salz",
+"italian": "Sale",
+"polish": "Sól",
+"russian": "Соль",
+"spanish": "Sal"
+},
+"name": "Salt",
+"producers": [
+32023
+]
+},
+{
+"guid": 50047,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 46
+},
+"locaText": {
+"czech": "Konopí",
+"english": "Hemp",
+"french": "Chanvre",
+"german": "Hanf",
+"italian": "Canapa",
+"polish": "Konopie",
+"russian": "Конопля",
+"spanish": "Cáñamo"
+},
+"name": "Hemp",
+"producers": [
+30020
+]
+},
+{
+"guid": 50036,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 0
+},
+"locaText": {
+"czech": "Lák",
+"english": "Brine",
+"french": "Saumure",
+"german": "Sole",
+"italian": "Salamoia",
+"polish": "Solanka",
+"russian": "Рассол",
+"spanish": "Salmuera"
+},
+"name": "Brine",
+"producers": [
+31504
+]
+},
+{
+"guid": 50029,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 0
+},
+"locaText": {
+"czech": "Železná ruda",
+"english": "Iron ore",
+"french": "Minerai de Fer",
+"german": "Eisenerz",
+"italian": "Minerale di ferro",
+"polish": "Ruda żelaza",
+"russian": "Железная руда",
+"spanish": "Mena de hierro"
+},
+"name": "IronOre",
+"producers": [
+31503
+]
+},
+{
+"guid": 50030,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 0
+},
+"locaText": {
+"czech": "Železo",
+"english": "Iron",
+"french": "Fer",
+"german": "Eisen",
+"italian": "Ferro",
+"polish": "Żelazo",
+"russian": "Железо",
+"spanish": "Hierro"
+},
+"name": "Iron",
+"producers": [
+32020
+]
+},
+{
+"guid": 50039,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 46
+},
+"locaText": {
+"czech": "Mouka",
+"english": "Flour",
+"french": "Farine",
+"german": "Mehl",
+"italian": "Farina",
+"polish": "Mąka",
+"russian": "Мука",
+"spanish": "Harina"
+},
+"name": "Flour",
+"producers": [
+32014
+]
+},
+{
+"guid": 50031,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 0
+},
+"locaText": {
+"czech": "Uhlí",
+"english": "Coal",
+"french": "Charbon",
+"german": "Kohle",
+"italian": "Carbone",
+"polish": "Węgiel",
+"russian": "Уголь",
+"spanish": "Carbón"
+},
+"name": "Coal",
+"producers": [
+30065,
+31506
+]
+},
+{
+"guid": 50048,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 92
+},
+"locaText": {
+"czech": "Zvířecí kůže",
+"english": "Animal hides",
+"french": "Peaux de bêtes",
+"german": "Tierhäute",
+"italian": "Pelli animali",
+"polish": "Skóry zwierzęce",
+"russian": "Шкуры",
+"spanish": "Cuero"
+},
+"name": "AnimalHides",
+"producers": [
+30066
+]
+},
+{
+"guid": 50038,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 46
+},
+"locaText": {
+"czech": "Pšenice",
+"english": "Wheat",
+"french": "Blé",
+"german": "Weizen",
+"italian": "Grano",
+"polish": "Pszenica",
+"russian": "Пшеница",
+"spanish": "Trigo"
+},
+"name": "Wheat",
+"producers": [
+30062
+]
+},
+{
+"guid": 50043,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 46
+},
+"locaText": {
+"czech": "Byliny",
+"english": "Herbs",
+"french": "Herbes",
+"german": "Kräuter",
+"italian": "Erbe",
+"polish": "Zioła",
+"russian": "Травы",
+"spanish": "Hierbas"
+},
+"name": "Herbs",
+"producers": [
+30063
+]
+},
+{
+"guid": 50049,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 0
+},
+"locaText": {
+"czech": "Potaš",
+"english": "Potash",
+"french": "Potasse",
+"german": "Pottasche",
+"italian": "Potassa",
+"polish": "Potaż",
+"russian": "Поташ",
+"spanish": "Potasa"
+},
+"name": "Potash",
+"producers": [
+32034
+]
+},
+{
+"guid": 50053,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 92
+},
+"locaText": {
+"czech": "Papír",
+"english": "Paper",
+"french": "Papier",
+"german": "Papier",
+"italian": "Carta",
+"polish": "Papier",
+"russian": "Бумага",
+"spanish": "Papel"
+},
+"name": "Paper",
+"producers": [
+30077
+]
+},
+{
+"guid": 50050,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 92
+},
+"locaText": {
+"czech": "Kůže",
+"english": "Furs",
+"french": "Fourrures",
+"german": "Pelze",
+"italian": "Pellicce",
+"polish": "Futra",
+"russian": "Мех",
+"spanish": "Pieles"
+},
+"name": "Fur",
+"producers": [
+30069
+]
+},
+{
+"guid": 50044,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 46
+},
+"locaText": {
+"czech": "Sudy",
+"english": "Barrels",
+"french": "Tonneaux",
+"german": "Fässer",
+"italian": "Barili",
+"polish": "Beczki",
+"russian": "Бочки",
+"spanish": "Barriles"
+},
+"name": "Barrel",
+"producers": [
+32025
+]
+},
+{
+"guid": 50054,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 92
+},
+"locaText": {
+"czech": "Měděná ruda",
+"english": "Copper ore",
+"french": "Minerai de Cuivre",
+"german": "Kupfererz",
+"italian": "Minerale di rame",
+"polish": "Ruda miedzi",
+"russian": "Медная руда",
+"spanish": "Mena de cobre"
+},
+"name": "CopperOre",
+"producers": [
+31507
+]
+},
+{
+"guid": 50055,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 92
+},
+"locaText": {
+"czech": "Mosaz",
+"english": "Brass",
+"french": "Laiton",
+"german": "Messing",
+"italian": "Ottone",
+"polish": "Mosiądz",
+"russian": "Латунь",
+"spanish": "Bronce"
+},
+"name": "Brass",
+"producers": [
+32035
+]
+},
+{
+"guid": 50045,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 46
+},
+"locaText": {
+"czech": "Hrozny",
+"english": "Grapes",
+"french": "Raisins",
+"german": "Trauben",
+"italian": "Uva",
+"polish": "Winogrona",
+"russian": "Виноград",
+"spanish": "Uvas"
+},
+"name": "Grapes",
+"producers": [
+30067
+]
+},
+{
+"guid": 50037,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 46
+},
+"locaText": {
+"czech": "Dobytek",
+"english": "Cattle",
+"french": "Bétail",
+"german": "Rinder",
+"italian": "Bestiame",
+"polish": "Bydło",
+"russian": "Крупный рогатый скот",
+"spanish": "Ganado"
+},
+"name": "Meat",
+"producers": [
+30064
+]
+},
+{
+"guid": 50061,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 138
+},
+"locaText": {
+"czech": "Růžový olej",
+"english": "Rose oil",
+"french": "Huile de Rose",
+"german": "Rosenöl",
+"italian": "Olio di rosa",
+"polish": "Olejek różany",
+"russian": "Розовое масло",
+"spanish": "Aceite de rosas"
+},
+"name": "RoseOil",
+"producers": [
+30074
+]
+},
+{
+"guid": 50057,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 92
+},
+"locaText": {
+"czech": "Včelí vosk",
+"english": "Beeswax",
+"french": "Cire d’Abeille",
+"german": "Bienenwachs",
+"italian": "Cera d'api",
+"polish": "Wosk pszczeli",
+"russian": "Пчелиный воск",
+"spanish": "Cera de abejas"
+},
+"name": "BeesWax",
+"producers": [
+30073
+]
+},
+{
+"guid": 50058,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 92
+},
+"locaText": {
+"czech": "Svíčky",
+"english": "Candles",
+"french": "Bougies",
+"german": "Kerzen",
+"italian": "Candele",
+"polish": "Świece",
+"russian": "Свечи",
+"spanish": "Velas"
+},
+"name": "Candles",
+"producers": [
+32037
+]
+},
+{
+"guid": 50046,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 46
+},
+"locaText": {
+"czech": "Kávové boby",
+"english": "Coffee beans",
+"french": "Grains de café",
+"german": "Kaffeebohnen",
+"italian": "Grani di caffè",
+"polish": "Ziarnka kawy",
+"russian": "Кофейные бобы",
+"spanish": "Granos de café"
+},
+"name": "CoffeeBeans",
+"producers": [
+30068
+]
+},
+{
+"guid": 50059,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 92
+},
+"locaText": {
+"czech": "Zlatá ruda",
+"english": "Gold ore",
+"french": "Minerai d’Or",
+"german": "Golderz",
+"italian": "Minerale d'oro",
+"polish": "Ruda złota",
+"russian": "Золотая руда",
+"spanish": "Mena de oro"
+},
+"name": "GoldOre",
+"producers": [
+31508
+]
+},
+{
+"guid": 50056,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 138
+},
+"locaText": {
+"czech": "Indigo",
+"english": "Indigo",
+"french": "Indigo",
+"german": "Indigo",
+"italian": "Indaco",
+"polish": "Indygo",
+"russian": "Индиго",
+"spanish": "Índigo"
+},
+"name": "Indigo",
+"producers": [
+30075
+]
+},
+{
+"guid": 50051,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 92
+},
+"locaText": {
+"czech": "Zlato",
+"english": "Gold",
+"french": "Or",
+"german": "Gold",
+"italian": "Oro",
+"polish": "Złoto",
+"russian": "Золото",
+"spanish": "Oro"
+},
+"name": "Gold",
+"producers": [
+32041
+]
+},
+{
+"guid": 50042,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 46
+},
+"locaText": {
+"czech": "Cukr",
+"english": "Sugar",
+"french": "Sucre",
+"german": "Zucker",
+"italian": "Zucchero",
+"polish": "Cukier",
+"russian": "Сахар",
+"spanish": "Azúcar"
+},
+"name": "Sugar",
+"producers": [
+32030
+]
+},
+{
+"guid": 50041,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 46
+},
+"locaText": {
+"czech": "Cukrová třtina",
+"english": "Sugar cane",
+"french": "Canne à sucre",
+"german": "Zuckerrohr",
+"italian": "Canna da zucchero",
+"polish": "Trzcina cukrowa",
+"russian": "Сахарный тростник",
+"spanish": "Caña de azúcar"
+},
+"name": "SugarCane",
+"producers": [
+30071
+]
+},
+{
+"guid": 50040,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 46
+},
+"locaText": {
+"czech": "Mandle",
+"english": "Almonds",
+"french": "Amandes",
+"german": "Mandeln",
+"italian": "Mandorle",
+"polish": "Migdały",
+"russian": "Миндаль",
+"spanish": "Almendras"
+},
+"name": "Almonds",
+"producers": [
+30061
+]
+},
+{
+"guid": 50032,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 0
+},
+"locaText": {
+"czech": "Jíl",
+"english": "Clay",
+"french": "Argile",
+"german": "Ton",
+"italian": "Argilla",
+"polish": "Glina",
+"russian": "Глина",
+"spanish": "Arcilla"
+},
+"name": "Clay",
+"producers": [
+31000
+]
+},
+{
+"guid": 50052,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 138
+},
+"locaText": {
+"czech": "Hedvábí",
+"english": "Silk",
+"french": "Soie",
+"german": "Seide",
+"italian": "Seta",
+"polish": "Jedwab",
+"russian": "Шелк",
+"spanish": "Seda"
+},
+"name": "Silk",
+"producers": [
+30072
+]
+},
+{
+"guid": 50060,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 92
+},
+"locaText": {
+"czech": "Perly",
+"english": "Pearls",
+"french": "Perles",
+"german": "Perlen",
+"italian": "Perle",
+"polish": "Perły",
+"russian": "Жемчуг",
+"spanish": "Perlas"
+},
+"name": "Pearls",
+"producers": [
+30076
+]
+},
+{
+"guid": 50033,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 0
+},
+"locaText": {
+"czech": "Křemen",
+"english": "Quartz",
+"french": "Quartz",
+"german": "Quarz",
+"italian": "Quarzo",
+"polish": "Kwarc",
+"russian": "Кварц",
+"spanish": "Cuarzo"
+},
+"name": "Quartz",
+"producers": [
+31501
+]
+},
+{
+"guid": 50062,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 138
+},
+"locaText": {
+"czech": "Provazy",
+"english": "Ropes",
+"french": "Cordages",
+"german": "Seile",
+"italian": "Corde",
+"polish": "Liny",
+"russian": "Канаты",
+"spanish": "Cuerdas"
+},
+"name": "Ropes",
+"producers": [
+32021
+]
+},
+{
+"guid": 50063,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 184
+},
+"locaText": {
+"czech": "Zbraně",
+"english": "Weapons",
+"french": "Armes",
+"german": "Waffen",
+"italian": "Armi",
+"polish": "Broń",
+"russian": "Оружие",
+"spanish": "Armas"
+},
+"name": "Weapons",
+"producers": [
+32022
+]
+},
+{
+"guid": 50064,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 184
+},
+"locaText": {
+"czech": "Válečné stroje",
+"english": "War machines",
+"french": "Engins de siège",
+"german": "Kriegsmaschinen",
+"italian": "Macchine da guerra",
+"polish": "Mechanizmy proste",
+"russian": "Военные машины",
+"spanish": "Maquinaria militar"
+},
+"name": "WarMaschines",
+"producers": [
+32029
+]
+},
+{
+"guid": 50065,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 184
+},
+"locaText": {
+"czech": "Děla",
+"english": "Cannons",
+"french": "Canons",
+"german": "Kanonen",
+"italian": "Cannoni",
+"polish": "Działa",
+"russian": "Пушки",
+"spanish": "Cañones"
+},
+"name": "Cannons",
+"producers": [
+32033
+]
+},
+{
+"guid": 50066,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 184
+},
+"locaText": {
+"czech": "Potraviny",
+"english": "Provisions",
+"french": "Provisions",
+"german": "Proviant",
+"italian": "Provviste",
+"polish": "Prowiant",
+"russian": "Провиант",
+"spanish": "Provisiones"
+},
+"name": "SupplyPackage"
+}
+],
+"residenceBuildings": [
+{
+"guid": 33010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 276
+},
+"locaText": {
+"czech": "Dům poddaných",
+"english": "Peasant house",
+"french": "Maison de Paysan",
+"german": "Bauernhaus",
+"italian": "Casa del Contadino",
+"polish": "Chata wieśniaka",
+"russian": "Крестьянский дом",
+"spanish": "Casa de campesinos"
+},
+"maxResidentCount": 8,
+"name": "PeasantHouse"
+},
+{
+"guid": 33020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 276
+},
+"locaText": {
+"czech": "Dům občanů",
+"english": "Citizen house",
+"french": "Maison de Citoyen",
+"german": "Bürgerhaus",
+"italian": "Casa del Cittadino",
+"polish": "Dom mieszczanina",
+"russian": "Дом горожанина",
+"spanish": "Casa de ciudadanos"
+},
+"maxResidentCount": 15,
+"name": "CitizenHouse"
+},
+{
+"guid": 33030,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 276
+},
+"locaText": {
+"czech": "Dům patricijů",
+"english": "Patrician house",
+"french": "Maison de Patricien",
+"german": "Patrizierhaus",
+"italian": "Casa del Patrizio",
+"polish": "Dom patrycjusza",
+"russian": "Дом патриция",
+"spanish": "Casa de patricios"
+},
+"maxResidentCount": 25,
+"name": "PatricianHouse"
+},
+{
+"guid": 33040,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 276
+},
+"locaText": {
+"czech": "Dům šlechticů",
+"english": "Nobleman house",
+"french": "Maison de Noble",
+"german": "Adligenhaus",
+"italian": "Casa del Nobile",
+"polish": "Dwór arystokraty",
+"russian": "Дом дворянина",
+"spanish": "Casa de nobles"
+},
+"maxResidentCount": 40,
+"name": "NoblemanHouse"
+},
+{
+"guid": 33060,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 276
+},
+"locaText": {
+"czech": "Dům velvyslanců",
+"english": "Envoy house",
+"french": "Maison d'Émissaire",
+"german": "Gesandtenhaus",
+"italian": "Casa del Messo",
+"polish": "Chata arabskiego osadnika",
+"russian": "Дом посланника",
+"spanish": "Casa de enviados"
+},
+"maxResidentCount": 25,
+"name": "AmbassadorHouse"
+},
+{
+"guid": 33055,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 276
+},
+"locaText": {
+"czech": "Nomádská chatrč",
+"english": "Nomad house",
+"french": "Maison de Nomade",
+"german": "Nomadenhütte",
+"italian": "Casa del Nomade",
+"polish": "Namiot nomady",
+"russian": "Хижина кочевника",
+"spanish": "Casa de nómada"
+},
+"maxResidentCount": 15,
+"name": "NomadsTent"
+},
+{
+"guid": 34036,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 322
+},
+"locaText": {
+"czech": "Chudobinec",
+"english": "Alms house",
+"french": "Hospice",
+"german": "Armenhaus",
+"italian": "Ricovero",
+"polish": "Przytułek",
+"russian": "Богадельня",
+"spanish": "Hospicio"
+},
+"maxResidentCount": 500,
+"name": "Hospice"
+}
+],
+"traders": [
+{
+"goodsProduction": [
+{
+"Good": 50002,
+"ProductionPerMinute": 0.36363636363636365
+},
+{
+"Good": 50001,
+"ProductionPerMinute": 0.30769230769230765
+},
+{
+"Good": 50062,
+"ProductionPerMinute": 0.2857142857142857
+},
+{
+"Good": 50024,
+"ProductionPerMinute": 0.2857142857142857
+},
+{
+"Good": 50003,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50007,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50005,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50004,
+"ProductionPerMinute": 0.22222222222222224
+},
+{
+"Good": 50011,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50020,
+"ProductionPerMinute": 0.22222222222222224
+},
+{
+"Good": 50066,
+"ProductionPerMinute": 0.2
+}
+],
+"guid": 41400006,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_2.png",
+"width": 46,
+"x": 460,
+"y": 0
+},
+"name": "Giacomo Garibaldi"
+},
+{
+"goodsProduction": [
+{
+"Good": 50002,
+"ProductionPerMinute": 0.7741935483870968
+},
+{
+"Good": 50001,
+"ProductionPerMinute": 0.6857142857142857
+},
+{
+"Good": 50062,
+"ProductionPerMinute": 0.5
+},
+{
+"Good": 50003,
+"ProductionPerMinute": 0.4
+},
+{
+"Good": 50031,
+"ProductionPerMinute": 0.42857142857142855
+},
+{
+"Good": 50035,
+"ProductionPerMinute": 0.36363636363636365
+},
+{
+"Good": 50004,
+"ProductionPerMinute": 0.36363636363636365
+},
+{
+"Good": 50053,
+"ProductionPerMinute": 0.38095238095238093
+},
+{
+"Good": 50066,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50044,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50055,
+"ProductionPerMinute": 0.25
+}
+],
+"guid": 1645000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 322
+},
+"name": "Lord Richard Northburgh"
+},
+{
+"goodsProduction": [
+{
+"Good": 50002,
+"ProductionPerMinute": 0.36363636363636365
+},
+{
+"Good": 50008,
+"ProductionPerMinute": 0.30769230769230765
+},
+{
+"Good": 50021,
+"ProductionPerMinute": 0.2857142857142857
+},
+{
+"Good": 50015,
+"ProductionPerMinute": 0.2857142857142857
+},
+{
+"Good": 50052,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50007,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50033,
+"ProductionPerMinute": 0.22222222222222224
+},
+{
+"Good": 50005,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50046,
+"ProductionPerMinute": 0.25
+},
+{
+"Good": 50060,
+"ProductionPerMinute": 0.22222222222222224
+},
+{
+"Good": 50061,
+"ProductionPerMinute": 0.2
+}
+],
+"guid": 1645001,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 322
+},
+"name": "Grand Vizier Al Zahir"
+}
+],
+"workforce": [
+]
+}

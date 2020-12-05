@@ -1,0 +1,30 @@
+{
+    "german": {
+        "40110248": "Vogtbuch",
+        "40110202": "Weltstatistik"
+    },
+    "english": {
+        "40110248": "Reeve's book",
+        "40110202": "World statistics"
+    },
+    "french": {
+        "40110248": "Livre du Premier Magistrat",
+        "40110202": "Statistiques du monde"
+    },
+    "spanish": {
+        "40110248": "Libro del alguacil",
+        "40110202": "Estadísticas del mundo"
+    },
+    "italian": {
+        "40110248": "Libro dell'Alto magistrato",
+        "40110202": "Statistiche del Mondo"
+    },
+    "polish": {
+        "40110248": "Księgi baliwatów",
+        "40110202": "Statystyki świata"
+    },
+    "russian": {
+        "40110248": "Книга фогта",
+        "40110202": "Мировая статистика"
+    }
+}
