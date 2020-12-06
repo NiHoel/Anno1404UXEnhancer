@@ -59,9 +59,9 @@ void unit_tests(class statistics& image_recog)
 int main(int argc, char** argv) {
 	image_recognition recog(true);
 	statistics image_recog(recog);
-	unit_tests(image_recog);
+	//unit_tests(image_recog);
 
-	cv::Mat src = image_recognition::load_image("test_screenshots/screenshot0089.jpg");
+	cv::Mat src = image_recognition::load_image("test_screenshots/screenshot0098.jpg");
 
 	image_recog.update("german", src);
 

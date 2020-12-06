@@ -49,7 +49,7 @@ struct comparePoints {
 
 image_recognition::image_recognition(bool verbose, std::string window_regex)
 	:
-	window_regex(window_regex.empty() ? "Anno 1404.*" : std::move(window_regex)),
+	window_regex(window_regex.empty() ? "A[Nn][Nn][Oo] 1404.*" : std::move(window_regex)),
 	verbose(verbose),
 	ocr(nullptr),
 	ocr_language("english")/*,
@@ -122,6 +122,7 @@ image_recognition::image_recognition(bool verbose, std::string window_regex)
 	}
 	process_buildings(pt.get_child("factories"));
 	process_buildings(pt.get_child("residenceBuildings"));
+	process_buildings(pt.get_child("publicBuildings"));
 
 	// load products
 	for (const auto& product : pt.get_child("products"))
@@ -202,11 +203,20 @@ cv::Mat image_recognition::get_square_region(const cv::Mat& img, const cv::Rect2
 	if (!img.size)
 		return cv::Mat();
 
-	int dim = std::lround(std::max(rect.width * img.cols, rect.height * img.rows));
-	cv::Rect scaled(static_cast<int>(rect.x * img.cols),
+	float cols = img.cols - 1.f;
+	float rows = img.rows - 1.f;
+	float normal_cols = 16 * rows / 9.f;
+
+	float x = normal_cols * rect.x;
+	if (rect.x + 0.5f * rect.width > 0.66f) // right aligned
+		x = cols - normal_cols + x;
+	else if (rect.x + 0.5f * rect.width > 0.33f) // center aligned
+		x = x - 0.5f * normal_cols + 0.5f * cols;
+
+	int dim = static_cast<int>(std::lround(rect.height * img.rows));
+	cv::Rect scaled(static_cast<int>(x),
 		static_cast<int>(rect.y * img.rows),
-		std::min(dim, static_cast<int>(img.cols - rect.x * img.cols)),
-		std::min(dim, static_cast<int>(img.rows - rect.y * img.rows)));
+		dim, dim);
 	return img(scaled);
 }
 
@@ -229,9 +239,9 @@ cv::Mat image_recognition::get_pane(const cv::Rect2f& rect, const cv::Mat& img)
 	float normal_cols = 16 * rows / 9.f;
 
 	float x = normal_cols * rect.x;
-	if (rect.x > 0.66f) // right aligned
+	if (rect.x + 0.5f * rect.width > 0.66f) // right aligned
 		x = cols - normal_cols + x;
-	else if(rect.x > 0.33f) // center aligned
+	else if(rect.x + 0.5f * rect.width > 0.33f) // center aligned
 		x = x - 0.5f * normal_cols + 0.5f * cols;
 	
 	cv::Rect scaled(static_cast<int>(x), static_cast<int>(rect.y * rows), static_cast<int>(rect.width * normal_cols), static_cast<int>(rect.height * rows));
@@ -385,14 +395,16 @@ std::vector<unsigned int> image_recognition::get_guid_from_icon(const cv::Mat& i
 		cv::Mat template_resized;
 		cv::resize(blend_icon(entry.second, background_resized), template_resized, cv::Size(icon.cols, icon.rows));
 
+#ifdef SHOW_CV_DEBUG_IMAGE_VIEW
+		cv::imwrite("debug_images/icon_template.png", template_resized);
+#endif
+		
 		cv::Mat diff;
 		cv::absdiff(icon, template_resized, diff);
 		float match = cv::sum(diff).ddot(cv::Scalar::ones()) / icon.rows / icon.cols;
 		if (match == best_match)
 		{
-#ifdef SHOW_CV_DEBUG_IMAGE_VIEW
-			cv::imwrite("debug_images/icon_template.png", template_resized);
-#endif
+
 			guids.push_back(entry.first);
 		}
 		else if (match < best_match)
@@ -860,7 +872,7 @@ cv::Rect2i image_recognition::find_anno()
 					int area = (windowsize.bottom - windowsize.top) * (windowsize.right - windowsize.left);
 					if (*(((lambda_parameter*)lparam)->area))
 					{
-						std::cout << "WARNING: Multiple windows with title 'Anno 1800' detected. The server may not work because it captures the wrong one." << std::endl;
+						std::cout << "WARNING: Multiple windows with title 'Anno 1404' detected. The server may not work because it captures the wrong one." << std::endl;
 					}
 
 					if (*(((lambda_parameter*)lparam)->area) < area)
@@ -900,7 +912,7 @@ cv::Rect2i image_recognition::find_anno()
 					}, (LPARAM)&params);
 			}
 			else {
-				std::cout << "Anno 1800 window not found" << std::endl;
+				std::cout << "Anno 1404 window not found" << std::endl;
 			}
 
 			return cv::Rect2i();
@@ -911,8 +923,9 @@ cv::Rect2i image_recognition::find_anno()
 
 		return cv::Rect2i(windowsize.left, windowsize.top, windowsize.right - windowsize.left, windowsize.bottom - windowsize.top);
 	}
-	catch (const std::exception&)
+	catch (const std::exception& e)
 	{
+		std::cout << e.what() << std::endl;
 		return cv::Rect2i();
 	}
 }
@@ -1101,7 +1114,7 @@ std::vector<cv::Rect2i> image_recognition::detect_boxes(const cv::Mat& im, unsig
 	cv::findContours(edge_image, contours, hierarchy, cv::RETR_TREE, cv::CHAIN_APPROX_SIMPLE);
 
 	std::vector<cv::Point> approx;
-	std::set<size_t> box_indices;
+	std::vector<std::pair<cv::Rect2i, std::vector<cv::Point>>> box_candidates;
 	std::vector<cv::Rect2i> boxes;
 
 	cv::Rect2i min_bb(0, 0, width * (1.f - tolerance), height * (1.f - tolerance));
@@ -1118,50 +1131,43 @@ std::vector<cv::Rect2i> image_recognition::detect_boxes(const cv::Mat& im, unsig
 
 	for (size_t i = 0; i < contours.size(); i++)
 	{
-		if (box_indices.find(hierarchy[i][3]) != box_indices.end())
+		cv::Rect2i bb(cv::boundingRect(contours[i]));
+
+		if (bb.height > 0.5f * min_bb.height || bb.width > 0.5f * min_bb.width)
 		{
-			box_indices.emplace(i);
-			continue;
+			bool added = false;
+			for (auto iter = box_candidates.begin(); iter != box_candidates.end(); ++iter)
+			{
+				if (((iter->first) & bb).area())
+				{
+					added = true;
+					std::copy(contours[i].begin(), contours[i].end(), std::back_inserter(iter->second));
+					iter->first = cv::boundingRect(iter->second);
+					break;
+				}
+			}
+
+			if (!added)
+			{
+				box_candidates.emplace_back(bb, contours[i]);
+			}
 		}
+	}
 
-		// approximate contour with accuracy proportional
-		// to the contour perimeter
-		approxPolyDP(contours[i], approx, arcLength(contours[i], true) * 0.02, true);
+	for(const auto& entry : box_candidates){
+		const auto& bb = entry.first;
 
-		cv::Rect2i bb(cv::boundingRect(approx));
 
-		// square contours should have 4 vertices after approximation
-		// relatively large area (to filter out noisy contours)
-		// and be convex.
-		// Note: absolute value of an area is used because
-		// area may be positive or negative - in accordance with the
-		// contour orientation
-		if (//approx.size() == 4 &&
-			min_bb.width <= bb.width && bb.width <= max_bb.width &&
-			min_bb.height <= bb.height && bb.height <= max_bb.height /*&&
-			isContourConvex(approx)*/)
+		if (min_bb.width <= bb.width && bb.width <= max_bb.width &&
+			min_bb.height <= bb.height && bb.height <= max_bb.height)
 		{
-			//double maxCosine = 0;
 
-			//for (int j = 2; j < 5; j++)
-			//{
-			//	// find the maximum cosine of the angle between joint edges
-			//	double cosine = fabs(angle(approx[j % 4], approx[j - 2], approx[j - 1]));
-			//	maxCosine = std::max(maxCosine, cosine);
-			//}
-
-			//// if cosines of all angles are small
-			//// (all angles are ~90 degree) then write quandrange
-			//// vertices to resultant sequence
-			//if (maxCosine < 0.3)
-			//{
-			box_indices.emplace(i);
 			boxes.push_back(bb);
 
 #ifdef SHOW_CV_DEBUG_IMAGE_VIEW
 			cv::rectangle(colored_edge_image, bb, cv::Scalar(0, 0, 255, 255));
 #endif
-			//}
+			
 		}
 	}
 

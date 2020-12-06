@@ -19,7 +19,7 @@ void version::check_and_log()
     http_client client(U("https://api.github.com/"));
 
     // Build request URI and start the request.
-    uri_builder builder(U("/repos/NiHoel/Anno1800UXEnhancer/releases/latest"));
+    uri_builder builder(U("/repos/NiHoel/Anno1404UXEnhancer/releases/latest"));
     //builder.append_query(U("q"), U("cpprestsdk github"));
     client.request(methods::GET, builder.to_string())
         .then([=](http_response response)
@@ -49,7 +49,7 @@ void version::check_and_log()
                             else
                             {
                                 std::cout << "New version " << latest_version << " available at" << std::endl
-                                    << "https://github.com/NiHoel/Anno1800UXEnhancer/releases/latest" << std::endl;
+                                    << "https://github.com/NiHoel/Anno1404UXEnhancer/releases/latest" << std::endl;
                                 return;
                             }
 
@@ -62,7 +62,7 @@ void version::check_and_log()
                     }
 
                     std::cout << "Version check failed. New versions are available here:" << std::endl
-                        << "https://github.com/NiHoel/Anno1800UXEnhancer/releases/latest" << std::endl;
+                        << "https://github.com/NiHoel/Anno1404UXEnhancer/releases/latest" << std::endl;
                 });
  }
 

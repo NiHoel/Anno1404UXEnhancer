@@ -17,11 +17,11 @@ namespace reader
 //
 ////////////////////////////////////////
 
-const cv::Scalar statistics_screen_params::background_brown_dark = cv::Scalar(29,45,58);
-const cv::Scalar statistics_screen_params::icon_background = cv::Scalar(184,196,198);
+const cv::Scalar statistics_screen_params::background_brown_dark = cv::Scalar(29,45,58,255);
+const cv::Scalar statistics_screen_params::icon_background = cv::Scalar(184,196,198,255);
 
 const cv::Rect2f statistics_screen_params::size_framed_icon = cv::Rect2f(cv::Point2f(0.26455f, 0.38384f), cv::Point2f(0.29399f, 0.43520f));
-const cv::Rect2f statistics_screen_params::size_icon = cv::Rect2f(0.82432f, 0.82432f, 0.0878f, 0.087838f);
+const cv::Rect2f statistics_screen_params::size_icon = cv::Rect2f(0.068493151f, 0.068493151f, 0.8630137f, 0.8630137f);
 	
 const cv::Rect2f statistics_screen_params::pane_title = cv::Rect2f(cv::Point2f(0.35460f, 0.15582f), cv::Point2f(0.43390f, 0.18032f));
 const cv::Rect2f statistics_screen_params::pane_island = cv::Rect2f(cv::Point2f(0.45350f, 0.19592f), cv::Point2f(0.53259f, 0.21295f));
@@ -184,8 +184,8 @@ std::map<unsigned int, int> statistics_screen::get_assets_existing_buildings()
 	std::map<unsigned int, int> result;
 	cv::Mat icon_dummy = recog.get_pane(statistics_screen_params::size_framed_icon, screenshot);
 	cv::Rect2i offering_size = cv::Rect2i(0, 0, icon_dummy.cols, icon_dummy.rows);
-	
-	std::vector<cv::Rect2i> boxes(recog.detect_boxes(recog.get_pane(statistics_screen_params::pane_production_left,screenshot), offering_size));
+	cv::Mat production_img = recog.get_pane(statistics_screen_params::pane_production_left, screenshot);
+	std::vector<cv::Rect2i> boxes(recog.detect_boxes(production_img, offering_size,cv::Rect2i(), 0.1f));
 
 	std::sort(boxes.begin(), boxes.end(), [&offering_size](const cv::Rect2i& lhs, const cv::Rect2i& rhs) {
 		if (lhs.y + offering_size.height < rhs.y)
@@ -197,9 +197,11 @@ std::map<unsigned int, int> statistics_screen::get_assets_existing_buildings()
 		return false;
 		});
 
-	for (const cv::Rect2i& offering_loc : boxes)
+	for (const cv::Rect2i& box : boxes)
 	{
-		cv::Mat icon = recog.get_square_region(screenshot(offering_loc), statistics_screen_params::size_icon);
+		float dim = std::min(box.width, box.height);
+		const auto& s = statistics_screen_params::size_icon;
+		cv::Mat icon = production_img(cv::Rect2i(box.x + dim * s.x, box.y + dim * s.y, dim * s.width, dim * s.height));
 
 
 #ifdef SHOW_CV_DEBUG_IMAGE_VIEW
@@ -211,11 +213,11 @@ std::map<unsigned int, int> statistics_screen::get_assets_existing_buildings()
 			recog.building_icons,
 			statistics_screen_params::icon_background);
 
-		if (building_candidates.empty())
+		if (building_candidates.empty() || box.y + 1.5f * box.height >= production_img.rows)
 			continue;
 
-		cv::Rect2i count_box(offering_loc.x, offering_loc.y + offering_loc.height + 1, offering_loc.width, offering_loc.height / 3.f);
-		cv::Mat count_img = recog.binarize(screenshot(count_box), true);
+		cv::Rect2i count_box(box.x, box.y + box.height + box.height / 8.f, box.width, box.height / 3.f);
+		cv::Mat count_img = recog.binarize(production_img(count_box), true);
 
 #ifdef SHOW_CV_DEBUG_IMAGE_VIEW
 			cv::imwrite("debug_images/factory_count.png", count_img);

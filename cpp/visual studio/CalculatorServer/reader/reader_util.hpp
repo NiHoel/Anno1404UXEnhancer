@@ -13,7 +13,7 @@
 
 #include <tesseract/baseapi.h>
 
- #define SHOW_CV_DEBUG_IMAGE_VIEW
+// #define SHOW_CV_DEBUG_IMAGE_VIEW
 // #define CONSOLE_DEBUG_OUTPUT
 
 namespace reader

@@ -4136,6 +4136,2213 @@
 "name": "SupplyPackage"
 }
 ],
+"publicBuildings": [
+{
+"guid": 34000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 276
+},
+"locaText": {
+"czech": "Tržiště",
+"english": "Marketplace",
+"french": "Place de Marché",
+"german": "Marktplatz",
+"italian": "Mercato",
+"polish": "Targowisko",
+"russian": "Рыночная площадь",
+"spanish": "Mercado"
+},
+"name": "Marketplace"
+},
+{
+"guid": 34010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 276
+},
+"locaText": {
+"czech": "Hospoda",
+"english": "Tavern",
+"french": "Taverne",
+"german": "Schenke",
+"italian": "Taverna",
+"polish": "Tawerna",
+"russian": "Таверна",
+"spanish": "Taberna"
+},
+"name": "Tavern"
+},
+{
+"guid": 34020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 276
+},
+"locaText": {
+"czech": "Kaple",
+"english": "Chapel",
+"french": "Chapelle",
+"german": "Kapelle",
+"italian": "Cappella",
+"polish": "Kaplica",
+"russian": "Часовня",
+"spanish": "Capilla"
+},
+"name": "Chapel"
+},
+{
+"guid": 34021,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 276
+},
+"locaText": {
+"czech": "Malá norie",
+"english": "Small noria",
+"french": "Petite Noria",
+"german": "Kleine Noria",
+"italian": "Noria piccola",
+"polish": "Mała noria",
+"russian": "Малая нория",
+"spanish": "Noria pequeña"
+},
+"name": "Small noria"
+},
+{
+"guid": 34022,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 276
+},
+"locaText": {
+"czech": "Lázně",
+"english": "Bath house",
+"french": "Bains",
+"german": "Badehaus",
+"italian": "Bagno pubblico",
+"polish": "Łaźnia",
+"russian": "Баня",
+"spanish": "Baños públicos"
+},
+"name": "Bath house"
+},
+{
+"guid": 34024,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 276
+},
+"locaText": {
+"czech": "Kostel",
+"english": "Church",
+"french": "Église",
+"german": "Kirche",
+"italian": "Chiesa",
+"polish": "Kościół",
+"russian": "Церковь",
+"spanish": "Iglesia"
+},
+"name": "Church"
+},
+{
+"guid": 34026,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 276
+},
+"locaText": {
+"czech": "Základy císařské katedrály",
+"english": "Imperial cathedral foundation",
+"french": "Fondations de la Cathédrale impériale",
+"german": "Kaiserdom Fundament",
+"italian": "Fondamenta della cattedrale imperiale",
+"polish": "Fundament cesarskiej katedry",
+"russian": "Фундамент имп. собора",
+"spanish": "Cimientos de la catedral imperial"
+},
+"name": "Imperial cathedral foundation"
+},
+{
+"guid": 34027,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 276
+},
+"locaText": {
+"czech": "Vězení pro dlužníky",
+"english": "Debtor's prison",
+"french": "Prison des Débiteurs",
+"german": "Schuldturm",
+"italian": "Prigione per debitori",
+"polish": "Loch dla dłużników",
+"russian": "Тюрьма",
+"spanish": "Prisión de morosos"
+},
+"name": "Debtor's prison"
+},
+{
+"guid": 34028,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_2.png",
+"width": 46,
+"x": 138,
+"y": 0
+},
+"locaText": {
+"czech": "Šafářství",
+"english": "Bailiwick",
+"french": "Circonscription",
+"german": "Vogtei",
+"italian": "Distretto del guardiano",
+"polish": "Baliwat",
+"russian": "Резиденция фогта",
+"spanish": "Bailía"
+},
+"name": "Bailiwick"
+},
+{
+"guid": 34029,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 276
+},
+"locaText": {
+"czech": "Turnajová aréna",
+"english": "Tournament arena",
+"french": "Arène de Tournoi",
+"german": "Turnierplatz",
+"italian": "Arena dei tornei",
+"polish": "Pole turniejowe",
+"russian": "Турнирное поле",
+"spanish": "Recinto de torneo"
+},
+"name": "Tournament arena"
+},
+{
+"guid": 34031,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 276
+},
+"locaText": {
+"czech": "Velká norie",
+"english": "Large noria",
+"french": "Grande Noria",
+"german": "Große Noria",
+"italian": "Noria grande",
+"polish": "Duża noria",
+"russian": "Большая нория",
+"spanish": "Noria grande"
+},
+"name": "Large noria"
+},
+{
+"guid": 34032,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 322
+},
+"locaText": {
+"czech": "Tesařův dům",
+"english": "Carpenter's house",
+"french": "Atelier de Charpentier",
+"german": "Zimmermannshaus",
+"italian": "Casa del Falegname",
+"polish": "Stolarnia",
+"russian": "Дом плотника",
+"spanish": "Casa de carpintero"
+},
+"name": "Carpenter's house"
+},
+{
+"guid": 34033,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 322
+},
+"locaText": {
+"czech": "Požární stanice",
+"english": "Fire station",
+"french": "Caserne de pompiers",
+"german": "Feuerwache",
+"italian": "Caserma dei pompieri",
+"polish": "Straż ogniowa",
+"russian": "Пожарная каланча",
+"spanish": "Parque de bomberos"
+},
+"name": "Fire station"
+},
+{
+"guid": 34034,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 322
+},
+"locaText": {
+"czech": "Ordinace",
+"english": "Surgery",
+"french": "Hôpital",
+"german": "Medikus",
+"italian": "Sanatorio",
+"polish": "Warsztat cyrulika",
+"russian": "Лекарь",
+"spanish": "Puesto médico"
+},
+"name": "Surgery"
+},
+{
+"guid": 34038,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 276
+},
+"locaText": {
+"czech": "Chrámová loď císařské katedrály",
+"english": "Imperial cathedral nave",
+"french": "Nef de la Cathédrale impériale",
+"german": "Kaiserdom Kirchenschiff",
+"italian": "Navata della cattedrale imperiale",
+"polish": "Nawa cesarskiej katedry",
+"russian": "Неф собора императора",
+"spanish": "Nave de la catedral imperial"
+},
+"name": "Imperial cathedral nave"
+},
+{
+"guid": 34039,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 276
+},
+"locaText": {
+"czech": "Tesařská práce císařské katedrály",
+"english": "Imperial cathedral timberwork",
+"french": "Charpente de la Cathédrale impériale",
+"german": "Kaiserdom Fenster",
+"italian": "Lavori in legno della cattedrale imperiale",
+"polish": "Prace ciesielskie przy katedrze",
+"russian": "Перекрытия собора",
+"spanish": "Artesonado de la catedral imperial"
+},
+"name": "Imperial cathedral timberwork"
+},
+{
+"guid": 34040,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 276
+},
+"locaText": {
+"czech": "Císařská katedrála",
+"english": "Imperial cathedral",
+"french": "Cathédrale impériale",
+"german": "Kaiserdom",
+"italian": "Cattedrale imperiale",
+"polish": "Cesarska katedra",
+"russian": "Императорский собор",
+"spanish": "Catedral imperial"
+},
+"name": "Imperial cathedral"
+},
+{
+"guid": 34041,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 276
+},
+"locaText": {
+"czech": "Základy sultánovy mešity",
+"english": "Sultan's mosque foundation",
+"french": "Fondations de la Mosquée du Sultan",
+"german": "Sultansmoschee Fundament",
+"italian": "Fondamenta della moschea del sultano",
+"polish": "Fundament sułtańskiego meczetu",
+"russian": "Фундамент султ. мечети",
+"spanish": "Cimientos de la mezquita del Sultán"
+},
+"name": "Sultan's mosque foundation"
+},
+{
+"guid": 34042,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 276
+},
+"locaText": {
+"czech": "Kamenická práce sultánovy mešity",
+"english": "Sultan's mosque Stonework",
+"french": "Maçonnerie en Pierre de la Mosquée du Sultan",
+"german": "Sultansmoschee Mauerwerk",
+"italian": "Lavori in pietra della moschea del sultano",
+"polish": "Prace kamieniarskie przy sułtańskim meczecie",
+"russian": "Стены султанской мечети",
+"spanish": "Cantería de la mezquita del Sultán"
+},
+"name": "Sultan's mosque Stonework"
+},
+{
+"guid": 34043,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 276
+},
+"locaText": {
+"czech": "Kupole sultánovy mešity",
+"english": "Sultan's mosque cupola",
+"french": "Coupole de la Mosquée du Sultan",
+"german": "Sultansmoschee Kuppel",
+"italian": "Cupola della moschea del sultano",
+"polish": "Kopuła sułtańskiego meczetu",
+"russian": "Купол султанской мечети",
+"spanish": "Cúpula de la mezquita del Sultán"
+},
+"name": "Sultan's mosque cupola"
+},
+{
+"guid": 34044,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 276
+},
+"locaText": {
+"czech": "Sultánova mešita",
+"english": "Sultan's mosque",
+"french": "Mosquée du Sultan",
+"german": "Sultansmoschee",
+"italian": "Moschea del sultano",
+"polish": "Sułtański meczet",
+"russian": "Султанская мечеть",
+"spanish": "Mezquita del Sultán"
+},
+"name": "Sultan's mosque"
+},
+{
+"guid": 35000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 230
+},
+"locaText": {
+"czech": "Malé skladiště",
+"english": "Small warehouse",
+"french": "Petit Entrepôt",
+"german": "Kleines Kontor",
+"italian": "Magazzino piccolo",
+"polish": "Mały magazyn",
+"russian": "Малая контора",
+"spanish": "Almacén pequeño"
+},
+"name": "Small warehouse"
+},
+{
+"guid": 35010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 230
+},
+"locaText": {
+"czech": "Střední skladiště",
+"english": "Medium warehouse",
+"french": "Entrepôt moyen",
+"german": "Mittleres Kontor",
+"italian": "Magazzino medio",
+"polish": "Średni magazyn",
+"russian": "Средняя контора",
+"spanish": "Almacén mediano"
+},
+"name": "Medium warehouse"
+},
+{
+"guid": 35020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 230
+},
+"locaText": {
+"czech": "Velké skladiště",
+"english": "Large warehouse",
+"french": "Grand Entrepôt",
+"german": "Großes Kontor",
+"italian": "Magazzino grande",
+"polish": "Duży magazyn",
+"russian": "Большая контора",
+"spanish": "Almacén grande"
+},
+"name": "Large warehouse"
+},
+{
+"guid": 35100,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 230
+},
+"locaText": {
+"czech": "Malé tržiště",
+"english": "Small market building",
+"french": "Petit Bâtiment de Marché",
+"german": "Kleines Markthaus",
+"italian": "Edificio del mercato piccolo",
+"polish": "Mały dom targowy",
+"russian": "Малый крытый рынок",
+"spanish": "Mercado pequeño"
+},
+"name": "Small market building"
+},
+{
+"guid": 35110,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 230
+},
+"locaText": {
+"czech": "Střední tržiště",
+"english": "Medium market building",
+"french": "Bâtiment de Marché moyen",
+"german": "Mittleres Markthaus",
+"italian": "Edificio del mercato medio",
+"polish": "Średni dom targowy",
+"russian": "Средний крытый рынок",
+"spanish": "Mercado mediano"
+},
+"name": "Medium market building"
+},
+{
+"guid": 35120,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 230
+},
+"locaText": {
+"czech": "Velké tržiště",
+"english": "Large market building",
+"french": "Grand Bâtiment de Marché",
+"german": "Großes Markthaus",
+"italian": "Edificio del mercato grande",
+"polish": "Duży dom targowy",
+"russian": "Большой крытый рынок",
+"spanish": "Mercado grande"
+},
+"name": "Large market building"
+},
+{
+"guid": 35200,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 322
+},
+"locaText": {
+"czech": "Přístavní ostrov Západu",
+"english": "Occidental harbour island",
+"french": "Île portuaire occidentale",
+"german": "Hafeninsel Okzident",
+"italian": "Isola portuale occidentale",
+"polish": "Łacińska wyspa portowa",
+"russian": "Западный островной порт",
+"spanish": "Isla portuaria occidental"
+},
+"name": "Occidental harbour island"
+},
+{
+"guid": 35210,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 322
+},
+"locaText": {
+"czech": "Přístavní budova Západu",
+"english": "Occident harbour building",
+"french": "Bâtiment portuaire occidental",
+"german": "Abendländisches Hafengebäude",
+"italian": "Edificio portuale occidentale",
+"polish": "Łaciński port",
+"russian": "Западное здание порта",
+"spanish": "Edificio de isla portuaria occidental"
+},
+"name": "Occident harbour building"
+},
+{
+"guid": 35300,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 322
+},
+"locaText": {
+"czech": "Přístavní ostrov Orientu",
+"english": "Oriental harbour island",
+"french": "Île portuaire orientale",
+"german": "Hafeninsel Orient",
+"italian": "Isola portuale orientale",
+"polish": "Orientalna wyspa portowa",
+"russian": "Восточный островной порт",
+"spanish": "Edificio de isla portuaria oriental"
+},
+"name": "Oriental harbour island"
+},
+{
+"guid": 35310,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 644,
+"y": 322
+},
+"locaText": {
+"czech": "Přístavní budova Orientu",
+"english": "Orient harbour building",
+"french": "Bâtiment portuaire oriental",
+"german": "Orientalisches Hafengebäude",
+"italian": "Edificio portuale orientale",
+"polish": "Orientalny port",
+"russian": "Восточное здание порта",
+"spanish": "Edificio de puerto oriental"
+},
+"name": "Orient harbour building"
+},
+{
+"guid": 35320,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 322
+},
+"locaText": {
+"czech": "Karavanseráj",
+"english": "Caravanserai",
+"french": "Caravanserai",
+"german": "Karawanserei",
+"italian": "Caravanserraglio",
+"polish": "Karawanseraj",
+"russian": "Караван-сарай",
+"spanish": "Caravasar"
+},
+"name": "Caravanserai"
+},
+{
+"guid": 35322,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 322
+},
+"locaText": {
+"czech": "Hrad loupeživých rytířů",
+"english": "Robber baron castle",
+"french": "Château des Barons pillards",
+"german": "Raubritterburg",
+"italian": "Castello del Barone brigante",
+"polish": "Zamek zbójcerzy",
+"russian": "Крепость рыцарей-разбойников",
+"spanish": "Castillo de barón ladrón"
+},
+"name": "Robber baron castle"
+},
+{
+"guid": 35323,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 322
+},
+"locaText": {
+"czech": "Naleziště vykopávek",
+"english": "Excavation site",
+"french": "Site de Fouilles",
+"german": "Grabungsstätte",
+"italian": "Sito degli scavi",
+"polish": "Miejsce wykopalisk",
+"russian": "Место раскопок",
+"spanish": "Excavación"
+},
+"name": "Excavation site"
+},
+{
+"guid": 35324,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 322
+},
+"locaText": {
+"czech": "Doupě korzárů",
+"english": "Corsair lair",
+"french": "Repaire des Corsaires",
+"german": "Korsarennest",
+"italian": "Covo dei Corsari",
+"polish": "Kryjówka piratów",
+"russian": "Корсареннест",
+"spanish": "Guarida corsaria"
+},
+"name": "Corsair lair"
+},
+{
+"guid": 35325,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 322
+},
+"locaText": {
+"czech": "Přístavní budova korzárů",
+"english": "Corsair harbour building",
+"french": "Bâtiment portuaire des Corsaires",
+"german": "Korsaren-Hafengebäude",
+"italian": "Edificio portuale corsaro",
+"polish": "Przystań piratów",
+"russian": "Здание порта корсаров",
+"spanish": "Edificio de puerto corsario"
+},
+"name": "Corsair harbour building"
+},
+{
+"guid": 35328,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 322
+},
+"locaText": {
+"czech": "Horský klášter",
+"english": "Mountain monastery",
+"french": "Monastère de la Montagne",
+"german": "Bergkloster",
+"italian": "Monastero sui monti",
+"polish": "Klasztor górski",
+"russian": "Горный монастырь",
+"spanish": "Monasterio de la montaña"
+},
+"name": "Mountain monastery"
+},
+{
+"guid": 35329,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 322
+},
+"locaText": {
+"czech": "Akademie moudrosti",
+"english": "Academy of Wisdom",
+"french": "Académie de la Sagesse",
+"german": "Akademie der Weisen",
+"italian": "Accademia del sapere",
+"polish": "Akademia Mądrości",
+"russian": "Академия мудрости",
+"spanish": "Academia del Saber"
+},
+"name": "Academy of Wisdom"
+},
+{
+"guid": 35330,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 322
+},
+"locaText": {
+"czech": "Starý strom",
+"english": "Old tree",
+"french": "Vieil Arbre",
+"german": "Alter Baum",
+"italian": "Antico albero",
+"polish": "Stare drzewo",
+"russian": "Старое дерево",
+"spanish": "Árbol viejo"
+},
+"name": "Old tree"
+},
+{
+"guid": 35331,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 322
+},
+"locaText": {
+"czech": "Věž alchymisty",
+"english": "Alchemist's tower",
+"french": "Tour de l'Alchimiste",
+"german": "Alchemistenturm",
+"italian": "Torre dell'alchimista",
+"polish": "Wieża alchemika",
+"russian": "Башня алхимика",
+"spanish": "Torre del alquimista"
+},
+"name": "Alchemist's tower"
+},
+{
+"guid": 35332,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 276
+},
+"locaText": {
+"czech": "Mešita",
+"english": "Mosque",
+"french": "Mosquée",
+"german": "Moschee",
+"italian": "Moschea",
+"polish": "Meczet",
+"russian": "Мечеть",
+"spanish": "Mezquita"
+},
+"name": "Mosque"
+},
+{
+"guid": 35335,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 322
+},
+"locaText": {
+"czech": "Poutní místo",
+"english": "Place of pilgrimage",
+"french": "Lieu de Pèlerinage",
+"german": "Wallfahrtsort",
+"italian": "Luogo di pellegrinaggio",
+"polish": "Miejsce pielgrzymowania",
+"russian": "Место паломничества",
+"spanish": "Lugar de peregrinaje"
+},
+"name": "Place of pilgrimage"
+},
+{
+"guid": 35336,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 276
+},
+"locaText": {
+"czech": "Orientální trh",
+"english": "Bazaar",
+"french": "Bazar",
+"german": "Basar",
+"italian": "Bazar",
+"polish": "Bazar",
+"russian": "Базар",
+"spanish": "Bazar"
+},
+"name": "Bazaar"
+},
+{
+"guid": 35339,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 322
+},
+"locaText": {
+"czech": "Pevnost vrahounů",
+"english": "Assassins' fortress",
+"french": "Forteresse des Assassins",
+"german": "Assassinenfestung",
+"italian": "Fortezza dell'assassino",
+"polish": "Forteca asasynów",
+"russian": "Крепость ассасинов",
+"spanish": "Fortaleza de los asesinos"
+},
+"name": "Assassins' fortress"
+},
+{
+"guid": 35341,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 230
+},
+"locaText": {
+"czech": "Orientální tržiště",
+"english": "Oriental market building",
+"french": "Bâtiment de Marché oriental",
+"german": "Orientalisches Markthaus",
+"italian": "Edificio del mercato orientale",
+"polish": "Orientalny dom handlowy",
+"russian": "Восточный рынок",
+"spanish": "Mercado oriental"
+},
+"name": "Oriental market building"
+},
+{
+"guid": 35342,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 414
+},
+"locaText": {
+"czech": "Sultánova rezidence",
+"english": "Sultan's residence",
+"french": "Demeure du Sultan",
+"german": "Sultanspalast",
+"italian": "Residenza del sultano",
+"polish": "Pałac Sułtana",
+"russian": "Дворец султана",
+"spanish": "Residencia del Sultán"
+},
+"name": "Sultan's residence"
+},
+{
+"guid": 35343,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 414
+},
+"locaText": {
+"czech": "Císařská rezidence",
+"english": "Imperial residence",
+"french": "Demeure impériale",
+"german": "Kaiserresidenz",
+"italian": "Residenza imperiale",
+"polish": "Pałac Cesarza",
+"russian": "Резиденция императора",
+"spanish": "Residencia imperial"
+},
+"name": "Imperial residence"
+},
+{
+"guid": 35344,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 230
+},
+"locaText": {
+"czech": "Orientální skladiště",
+"english": "Oriental warehouse",
+"french": "Entrepôt oriental",
+"german": "Orientalisches Kontor",
+"italian": "Magazzino orientale",
+"polish": "Orientalny magazyn",
+"russian": "Восточная контора",
+"spanish": "Almacén oriental"
+},
+"name": "Oriental warehouse"
+},
+{
+"guid": 36000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 322
+},
+"locaText": {
+"czech": "Obraz Panny Marie",
+"english": "Picture of the Virgin Mary",
+"french": "Icône de la Vierge Marie",
+"german": "Marienbild",
+"italian": "Dipinto della Vergine Maria",
+"polish": "Figura Marii Dziewicy",
+"russian": "Икона богоматери",
+"spanish": "Imagen de la Virgen María"
+},
+"name": "Picture of the Virgin Mary"
+},
+{
+"guid": 36002,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 368
+},
+"locaText": {
+"czech": "Orientální fontána",
+"english": "Oriental fountain",
+"french": "Fontaine orientale",
+"german": "Orientalischer Brunnen",
+"italian": "Fontana orientale",
+"polish": "Orientalna fontanna",
+"russian": "Восточный колодец",
+"spanish": "Fuente oriental"
+},
+"name": "Oriental fountain"
+},
+{
+"guid": 36004,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 368
+},
+"locaText": {
+"czech": "Stožár",
+"english": "Flagpole",
+"french": "Mât de drapeau",
+"german": "Fahne",
+"italian": "Pennone",
+"polish": "Maszt flagowy",
+"russian": "Флаг",
+"spanish": "Mástil"
+},
+"name": "Flagpole"
+},
+{
+"guid": 36005,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 322
+},
+"locaText": {
+"czech": "Májka",
+"english": "Maypole",
+"french": "Mât enrubanné",
+"german": "Maibaum",
+"italian": "Palo ornato di festoni",
+"polish": "Majowe drzewo",
+"russian": "Майское дерево",
+"spanish": "Cucaña"
+},
+"name": "Maypole"
+},
+{
+"guid": 36006,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 322
+},
+"locaText": {
+"czech": "Tůň",
+"english": "Pond",
+"french": "Étang",
+"german": "Weiher",
+"italian": "Stagno",
+"polish": "Staw",
+"russian": "Пруд",
+"spanish": "Estanque"
+},
+"name": "Pond"
+},
+{
+"guid": 36007,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 598,
+"y": 368
+},
+"locaText": {
+"czech": "Palma",
+"english": "Palm",
+"french": "Palmier",
+"german": "Palme",
+"italian": "Palma",
+"polish": "Palma",
+"russian": "Пальма",
+"spanish": "Palmera"
+},
+"name": "Palm"
+},
+{
+"guid": 36008,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 368
+},
+"locaText": {
+"czech": "Cypřiš",
+"english": "Cypress",
+"french": "Cyprès",
+"german": "Zypresse",
+"italian": "Cipresso",
+"polish": "Cyprys",
+"russian": "Кипарис",
+"spanish": "Ciprés"
+},
+"name": "Cypress"
+},
+{
+"guid": 36009,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 322
+},
+"locaText": {
+"czech": "Vesnická fontána",
+"english": "Village fountain",
+"french": "Fontaine du Village",
+"german": "Dorfbrunnen",
+"italian": "Fontana del borgo",
+"polish": "Wiejskie źródełko",
+"russian": "Деревенский колодец",
+"spanish": "Fuente del pueblo"
+},
+"name": "Village fountain"
+},
+{
+"guid": 36010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 322
+},
+"locaText": {
+"czech": "Fontána",
+"english": "Fountain",
+"french": "Fontaine",
+"german": "Brunnen",
+"italian": "Fontana",
+"polish": "Fontanna",
+"russian": "Колодец",
+"spanish": "Fuente"
+},
+"name": "Fountain"
+},
+{
+"guid": 36011,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 368
+},
+"locaText": {
+"czech": "Velká socha",
+"english": "Large statue",
+"french": "Grande statue",
+"german": "Große Statue",
+"italian": "Grande statua",
+"polish": "Duży posąg",
+"russian": "Большая статуя",
+"spanish": "Estatua grande"
+},
+"name": "Large statue"
+},
+{
+"guid": 36012,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 368
+},
+"locaText": {
+"czech": "Malý stánek",
+"english": "Small Market stall",
+"french": "Petit Étal de Marché",
+"german": "Kleiner Marktstand",
+"italian": "Bancarella piccola",
+"polish": "Mały stragan",
+"russian": "Малая рыночная стойка",
+"spanish": "Puesto de mercado pequeño"
+},
+"name": "Small Market stall"
+},
+{
+"guid": 36013,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 368
+},
+"locaText": {
+"czech": "Střední stánek",
+"english": "Medium Market stall",
+"french": "Étal de Marché moyen",
+"german": "Mittlerer Marktstand",
+"italian": "Bancarella media",
+"polish": "Średni stragan",
+"russian": "Средняя рыночная стойка",
+"spanish": "Puesto de mercado mediano"
+},
+"name": "Medium Market stall"
+},
+{
+"guid": 36014,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 368
+},
+"locaText": {
+"czech": "Hřbitov",
+"english": "Cemetery",
+"french": "Cimetière",
+"german": "Friedhof",
+"italian": "Cimitero",
+"polish": "Cmentarz",
+"russian": "Кладбище",
+"spanish": "Cementerio"
+},
+"name": "Cemetery"
+},
+{
+"guid": 36016,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 368
+},
+"locaText": {
+"czech": "Pranýř",
+"english": "Pillory",
+"french": "Pilori",
+"german": "Pranger",
+"italian": "Berlina",
+"polish": "Pręgierz",
+"russian": "Позорный столб",
+"spanish": "Picota"
+},
+"name": "Pillory"
+},
+{
+"guid": 36017,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 368
+},
+"locaText": {
+"czech": "Tábor žonglérů",
+"english": "Juggler camp",
+"french": "Camp de Jongleurs",
+"german": "Gauklerlager",
+"italian": "Accampamento del giocoliere",
+"polish": "Kram żonglera",
+"russian": "Цирк",
+"spanish": "Campamento de malabaristas"
+},
+"name": "Juggler camp"
+},
+{
+"guid": 36019,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 368
+},
+"locaText": {
+"czech": "Stožár",
+"english": "Banner pole",
+"french": "Mât de Bannière",
+"german": "Banner",
+"italian": "Asta dello stendardo",
+"polish": "Drzewce na proporzec",
+"russian": "Знамя",
+"spanish": "Mástil de estandarte"
+},
+"name": "Banner pole"
+},
+{
+"guid": 36020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 552,
+"y": 368
+},
+"locaText": {
+"czech": "Zlatá socha",
+"english": "Gold statue",
+"french": "Statue d’Or",
+"german": "Goldene Statue",
+"italian": "Statua dorata",
+"polish": "Złoty posąg",
+"russian": "Золотая статуя",
+"spanish": "Estatua de oro"
+},
+"name": "Gold statue"
+},
+{
+"guid": 36023,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 368
+},
+"locaText": {
+"czech": "Střední stan orientálního trhu",
+"english": "Medium Bazaar tent",
+"french": "Tente de Bazar moyenne",
+"german": "Mittleres Basarzelt",
+"italian": "Tenda del bazar media",
+"polish": "Średni namiot bazarowy",
+"russian": "Средняя рыночная палатка",
+"spanish": "Tienda de bazar mediana"
+},
+"name": "Medium Bazaar tent"
+},
+{
+"guid": 36022,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 368
+},
+"locaText": {
+"czech": "Malý stan orientálního trhu",
+"english": "Small Bazaar tent",
+"french": "Petite Tente de Bazar",
+"german": "Kleines Basarzelt",
+"italian": "Tenda del bazar piccola",
+"polish": "Mały namiot bazarowy",
+"russian": "Малая рыночная палатка",
+"spanish": "Tienda de bazar pequeña"
+},
+"name": "Small Bazaar tent"
+},
+{
+"guid": 36024,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 368
+},
+"locaText": {
+"czech": "Orientální socha",
+"english": "Oriental statue",
+"french": "Statue orientale",
+"german": "Orientalische Statue",
+"italian": "Statua orientale",
+"polish": "Orientalny posąg",
+"russian": "Восточная статуя",
+"spanish": "Estatua oriental"
+},
+"name": "Oriental statue"
+},
+{
+"guid": 36025,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 368
+},
+"locaText": {
+"czech": "Tábor orientálních žonglérů",
+"english": "Oriental juggler camp",
+"french": "Camp de Jongleurs oriental",
+"german": "Orientalisches Gauklerlager",
+"italian": "Accampamento del giocoliere orientale",
+"polish": "Kram orientalnego żonglera",
+"russian": "Восточный цирк",
+"spanish": "Campamento de malabaristas orientales"
+},
+"name": "Oriental juggler camp"
+},
+{
+"guid": 36026,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 966
+},
+"locaText": {
+"czech": "Přístavní socha",
+"english": "Harbour statue",
+"french": "Statue du Port",
+"german": "Hafenstatue",
+"italian": "Statua del porto",
+"polish": "Statua portowa",
+"russian": "Статуя в порту",
+"spanish": "Estatua de puerto"
+},
+"name": "Harbour statue"
+},
+{
+"guid": 39002,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 230
+},
+"locaText": {
+"czech": "Malý sklad",
+"english": "Small Storehouse",
+"french": "Petit Entrepôt portuaire",
+"german": "Kleines Lagerhaus",
+"italian": "Centro di stoccaggio piccolo",
+"polish": "Mały skład",
+"russian": "Малый склад",
+"spanish": "Depósito pequeño"
+},
+"name": "Small Storehouse"
+},
+{
+"guid": 39014,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 230
+},
+"locaText": {
+"czech": "Opravárenský jeřáb",
+"english": "Repair crane",
+"french": "Grue de réparation",
+"german": "Reparaturkran",
+"italian": "Gru di riparazione",
+"polish": "Żuraw naprawczy",
+"russian": "Ремонтный кран",
+"spanish": "Grúa de reparación"
+},
+"name": "Repair crane"
+},
+{
+"guid": 39015,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 230
+},
+"locaText": {
+"czech": "Obranná věž v přístavu",
+"english": "Harbour Defence tower",
+"french": "Tour de défense portuaire",
+"german": "Hafenwehrturm",
+"italian": "Torre difensiva del porto",
+"polish": "Portowa wieża obronna",
+"russian": "Портовая оборонная башня",
+"spanish": "Torre de defensa portuaria"
+},
+"name": "Harbour Defence tower"
+},
+{
+"guid": 39017,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 230
+},
+"locaText": {
+"czech": "Budova správce přístavu",
+"english": "Harbour master's office",
+"french": "Bureau du Capitaine de Port",
+"german": "Hafenmeisterei",
+"italian": "Capitaneria di porto",
+"polish": "Siedziba starszego portu",
+"russian": "Контора начальника порта",
+"spanish": "Capitanía de puerto"
+},
+"name": "Harbour master's office"
+},
+{
+"guid": 39018,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 184,
+"y": 230
+},
+"locaText": {
+"czech": "Molo",
+"english": "Pier",
+"french": "Quai",
+"german": "Landungssteg",
+"italian": "Banchina",
+"polish": "Nabrzeże",
+"russian": "Сходни",
+"spanish": "Muelle"
+},
+"name": "Pier"
+},
+{
+"guid": 39019,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 230
+},
+"locaText": {
+"czech": "Základy historických skladišť",
+"english": "Historic warehouses foundation",
+"french": "Fondations des Entrepôts historiques",
+"german": "Speicherstadt Fundament",
+"italian": "Fondamenta dei magazzini storici",
+"polish": "Fundament wielkiego magazynu",
+"russian": "Фундамент гор. амбара",
+"spanish": "Cimientos de almacenes históricos"
+},
+"name": "Historic warehouses foundation"
+},
+{
+"guid": 39020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 230
+},
+"locaText": {
+"czech": "Velký sklad",
+"english": "Large storehouse",
+"french": "Grand Entrepôt",
+"german": "Großes Lagerhaus",
+"italian": "Centro di stoccaggio grande",
+"polish": "Duży skład",
+"russian": "Большой склад",
+"spanish": "Depósito grande"
+},
+"name": "Large storehouse"
+},
+{
+"guid": 39021,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 230
+},
+"locaText": {
+"czech": "Zdivo historických skladišť",
+"english": "Historic warehouses masonry",
+"french": "Maçonnerie des Entrepôts historiques",
+"german": "Speicherstadt Mauerwerk",
+"italian": "Muratura dei magazzini storici",
+"polish": "Mury wielkiego magazynu",
+"russian": "Стены городского амбара",
+"spanish": "Albañilería de almacenes históricos"
+},
+"name": "Historic warehouses masonry"
+},
+{
+"guid": 39023,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 230
+},
+"locaText": {
+"czech": "Historické skladiště",
+"english": "Historic warehouse",
+"french": "Entrepôt historique",
+"german": "Speicherstadt",
+"italian": "Magazzino storico",
+"polish": "Wielki magazyn",
+"russian": "Городской амбар",
+"spanish": "Almacén histórico"
+},
+"name": "Historic warehouse"
+},
+{
+"guid": 38000,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 874,
+"y": 184
+},
+"locaText": {
+"czech": "Tvrz",
+"english": "Keep",
+"french": "Donjon",
+"german": "Bergfried",
+"italian": "Torrione",
+"polish": "Warownia",
+"russian": "Крепостная башня",
+"spanish": "Torreón"
+},
+"name": "Keep"
+},
+{
+"guid": 38010,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 920,
+"y": 184
+},
+"locaText": {
+"czech": "Hrad",
+"english": "Castle",
+"french": "Château",
+"german": "Trutzburg",
+"italian": "Castello",
+"polish": "Zamek ",
+"russian": "Крепость",
+"spanish": "Castillo"
+},
+"name": "Castle"
+},
+{
+"guid": 38020,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 184
+},
+"locaText": {
+"czech": "Malý vojenský tábor",
+"english": "Small military camp",
+"french": "Petit Camp militaire",
+"german": "Kleines Heerlager",
+"italian": "Accampamento militare piccolo",
+"polish": "Mały obóz wojskowy",
+"russian": "Малый военный лагерь",
+"spanish": "Campamento militar pequeño"
+},
+"name": "Small military camp"
+},
+{
+"guid": 38021,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 368,
+"y": 138
+},
+"locaText": {
+"czech": "Malá loděnice",
+"english": "Small shipyard",
+"french": "Petit Chantier naval",
+"german": "Kleine Werft",
+"italian": "Cantiere navale piccolo",
+"polish": "Mała stocznia",
+"russian": "Малая верфь",
+"spanish": "Astillero pequeño"
+},
+"name": "Small shipyard"
+},
+{
+"guid": 38022,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 138
+},
+"locaText": {
+"czech": "Velká loděnice",
+"english": "Large shipyard",
+"french": "Grand Chantier naval",
+"german": "Große Werft",
+"italian": "Cantiere navale grande",
+"polish": "Duża stocznia",
+"russian": "Большая верфь",
+"spanish": "Astillero grande"
+},
+"name": "Large shipyard"
+},
+{
+"guid": 38023,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 138
+},
+"locaText": {
+"czech": "Orientální loděnice",
+"english": "Oriental shipyard",
+"french": "Chantier naval oriental",
+"german": "Orientalische Werft",
+"italian": "Cantiere navale orientale",
+"polish": "Orientalna stocznia",
+"russian": "Восточная верфь",
+"spanish": "Astillero oriental"
+},
+"name": "Oriental shipyard"
+},
+{
+"guid": 38024,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 230,
+"y": 184
+},
+"locaText": {
+"czech": "Orientální pevnost",
+"english": "Oriental fort",
+"french": "Fort oriental",
+"german": "Orientalische Festung",
+"italian": "Forte orientale",
+"polish": "Fort orientalny",
+"russian": "Восточная крепость",
+"spanish": "Fuerte oriental"
+},
+"name": "Oriental fort"
+},
+{
+"guid": 38025,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 184
+},
+"locaText": {
+"czech": "Velký vojenský tábor",
+"english": "Big military camp",
+"french": "Grand Camp militaire",
+"german": "Großes Heerlager",
+"italian": "Accampamento militare grande",
+"polish": "Duży obóz wojskowy",
+"russian": "Большой военный лагерь",
+"spanish": "Campamento militar grande"
+},
+"name": "Big military camp"
+},
+{
+"guid": 38027,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 322,
+"y": 184
+},
+"locaText": {
+"czech": "Pozice horníka",
+"english": "Miner position",
+"french": "Poste de Sapeurs",
+"german": "Mineurstellung",
+"italian": "Posizione del guastatore",
+"polish": "Pozycja sapera",
+"russian": "Позиция подрывников",
+"spanish": "Emplazamiento minero"
+},
+"name": "Miner position"
+},
+{
+"guid": 38028,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 276,
+"y": 184
+},
+"locaText": {
+"czech": "Dělostřelecká pozice",
+"english": "Cannon position",
+"french": "Position de Canon",
+"german": "Kanonenstellung",
+"italian": "Posizione del cannone",
+"polish": "Pozycja działa",
+"russian": "Позиция пушки",
+"spanish": "Emplazamiento de cañón"
+},
+"name": "Cannon position"
+},
+{
+"guid": 38030,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 460,
+"y": 184
+},
+"locaText": {
+"czech": "Pozice trebuchetu",
+"english": "Trebuchet position",
+"french": "Position de Trébuchet",
+"german": "Trebuchetstellung",
+"italian": "Posizione del trabucco",
+"polish": "Pozycja trebusza",
+"russian": "Позиция требушета",
+"spanish": "Emplazamiento de fundíbulo"
+},
+"name": "Trebuchet position"
+},
+{
+"guid": 38032,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 690,
+"y": 184
+},
+"locaText": {
+"czech": "Hlídková věž",
+"english": "Watchtower",
+"french": "Tour de garde",
+"german": "Wachturm",
+"italian": "Torre di guardia",
+"polish": "Wieża strażnicza",
+"russian": "Сторожевая башня",
+"spanish": "Atalaya"
+},
+"name": "Watchtower"
+},
+{
+"guid": 38033,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 782,
+"y": 184
+},
+"locaText": {
+"czech": "Brána",
+"english": "Gatehouse",
+"french": "Corps de garde",
+"german": "Torhaus",
+"italian": "Guardiola",
+"polish": "Barbakan",
+"russian": "Сторожка",
+"spanish": "Puesto de guardia"
+},
+"name": "Gatehouse"
+},
+{
+"guid": 38034,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 736,
+"y": 184
+},
+"locaText": {
+"czech": "Opevněná věž",
+"english": "Fortified tower",
+"french": "Tour fortifiée",
+"german": "Wehrturm",
+"italian": "Torre fortificata",
+"polish": "Umocniona wieża",
+"russian": "Оборонная башня",
+"spanish": "Torre fortificada"
+},
+"name": "Fortified tower"
+},
+{
+"guid": 38035,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 828,
+"y": 184
+},
+"locaText": {
+"czech": "Opevněná brána",
+"english": "Fortified gatehouse",
+"french": "Corps de garde fortifié",
+"german": "Zwinger",
+"italian": "Guardiola fortificata",
+"polish": "Umocniony barbakan",
+"russian": "Опоясывающая крепость",
+"spanish": "Puesto de guardia fortificado"
+},
+"name": "Fortified gatehouse"
+},
+{
+"guid": 38036,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 184
+},
+"locaText": {
+"czech": "Skladiště proviantu",
+"english": "Provision house",
+"french": "Munitionnaire",
+"german": "Proviantmagazin",
+"italian": "Centro di stoccaggio delle provviste",
+"polish": "Magazyn prowiantu",
+"russian": "Продовольственный склад",
+"spanish": "Puesto de provisiones"
+},
+"name": "Provision house"
+},
+{
+"guid": 38039,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 460
+},
+"locaText": {
+"czech": "Brána z živého plotu",
+"english": "Hedge gate",
+"french": "Porte végétale",
+"german": "Heckentor",
+"italian": "Porta di siepe",
+"polish": "Brama w ogrodzeniu",
+"russian": "Ворота живой изгороди",
+"spanish": "Puerta de cercado"
+},
+"name": "Hedge gate"
+},
+{
+"guid": 38532,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 0,
+"y": 230
+},
+"locaText": {
+"czech": "Orientální tábor",
+"english": "Oriental encampment",
+"french": "Campement oriental",
+"german": "Orientalisches Heerlager",
+"italian": "Accampamento orientale",
+"polish": "Orientalne obozowisko",
+"russian": "Восточный военный лагерь",
+"spanish": "Campamento oriental"
+},
+"name": "Oriental encampment"
+},
+{
+"guid": 38533,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 46,
+"y": 230
+},
+"locaText": {
+"czech": "Tábor vrahounů",
+"english": "Assassins' camp",
+"french": "Camp d’Assassins",
+"german": "Assassinenlager",
+"italian": "Accampamento degli assassini",
+"polish": "Obozowisko asasynów",
+"russian": "Лагерь ассасинов",
+"spanish": "Campamento de asesinos"
+},
+"name": "Assassins' camp"
+},
+{
+"guid": 38534,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 92,
+"y": 230
+},
+"locaText": {
+"czech": "Tábor loupeživých rytířů",
+"english": "Robber baron camp",
+"french": "Camp de Barons pillards",
+"german": "Raubritterlager",
+"italian": "Accampamento del Barone brigante",
+"polish": "Obozowisko zbójcerzy",
+"russian": "Лагерь рыцарей-разбойников",
+"spanish": "Campamento de barones ladrones"
+},
+"name": "Robber baron camp"
+},
+{
+"guid": 38535,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 230
+},
+"locaText": {
+"czech": "Malý tábor banditů",
+"english": "Small bandit camp",
+"french": "Petit Camp de Brigands",
+"german": "Kleines Gesetzlosenlager",
+"italian": "Accampamento dei Banditi piccolo",
+"polish": "Mały obóz bandytów",
+"russian": "Малый лагерь преступников",
+"spanish": "Campamento de bandidos pequeño"
+},
+"name": "Small bandit camp"
+},
+{
+"guid": 38536,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 230
+},
+"locaText": {
+"czech": "Střední tábor banditů",
+"english": "Medium Bandit camp",
+"french": "Camp de Brigands moyen",
+"german": "Mittleres Gesetzlosenlager",
+"italian": "Accampamento dei Banditi medio",
+"polish": "Średni obóz bandytów",
+"russian": "Средний лагерь преступников",
+"spanish": "Campamento de bandidos mediano"
+},
+"name": "Medium Bandit camp"
+},
+{
+"guid": 38537,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 138,
+"y": 230
+},
+"locaText": {
+"czech": "Velký tábor banditů",
+"english": "Large Bandit camp",
+"french": "Grand Camp de Brigands",
+"german": "Großes Gesetzlosenlager",
+"italian": "Accampamento dei Banditi grande",
+"polish": "Duży obóz bandytów",
+"russian": "Большой лагерь преступников",
+"spanish": "Campamento de bandidos grande"
+},
+"name": "Large Bandit camp"
+},
+{
+"guid": 39500,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 966,
+"y": 184
+},
+"locaText": {
+"czech": "Městská hradba",
+"english": "City wall",
+"french": "Murs d'enceinte",
+"german": "Stadtmauer",
+"italian": "Mura della Città",
+"polish": "Mury miejskie",
+"russian": "Городская стена",
+"spanish": "Muralla de ciudad"
+},
+"name": "City wall"
+},
+{
+"guid": 39501,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 506,
+"y": 230
+},
+"locaText": {
+"czech": "Pobřežní hradba",
+"english": "Quay wall",
+"french": "Mur de Quai",
+"german": "Kaimauer",
+"italian": "Mura del molo",
+"polish": "Mur przy nabrzeżu",
+"russian": "Причальная стенка",
+"spanish": "Muro de muelle"
+},
+"name": "Quay wall"
+},
+{
+"guid": 39502,
+"icon": {
+"height": 46,
+"path": "gui_icon_map_anno4_sorted.png",
+"width": 46,
+"x": 414,
+"y": 368
+},
+"locaText": {
+"czech": "Živý plot",
+"english": "Hedge",
+"french": "Haie",
+"german": "Hecke",
+"italian": "Siepe",
+"polish": "Ogrodzenie",
+"russian": "Живая изгородь",
+"spanish": "Seto"
+},
+"name": "Hedge"
+}
+],
 "residenceBuildings": [
 {
 "guid": 33010,
